@@ -3,8 +3,12 @@ Trabalho desenvolvido durante a disciplina de BD
 
 #Sumário
 
-1	HISTÓRICO DO DOCUMENTO<br>
-2	INTRODUÇÃO<br>
+1	COMPONENTES<br>
+Integrantes do grupo<br>
+
+2	INTRODUÇÃO E MOTIVAÇAO<br>
+Este documento contém a especificação do projeto do banco de dados <nome do projeto> e motivação da escolha realizada. <br>
+
 3	MINI-MUNDO<br>
 4	RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 5	MODELO CONCEITUAL<br>
