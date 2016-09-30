@@ -27,7 +27,8 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
     5.1 decisoes de projeto
     atributo: descrição
     EXEMPLO:
-    a) Campo endereço: em nosso projeto optamos por um campo multivalorado e composto, pois a empresa pode possuir para cada departamento mais de uma localização... 
+    a) Campo endereço: em nosso projeto optamos por um campo multivalorado e composto, pois a empresa 
+    pode possuir para cada departamento mais de uma localização... 
 
     5.2 DESCRIÇÃO DOS DADOS 
     EXEMPLO:
