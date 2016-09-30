@@ -1,4 +1,4 @@
-# trab01
+# TRABALHO 01
 Trabalho desenvolvido durante a disciplina de BD
 
 #Sumário
@@ -10,9 +10,35 @@ Integrantes do grupo<br>
 Este documento contém a especificação do projeto do banco de dados <nome do projeto> e motivação da escolha realizada. <br>
 
 3	MINI-MUNDO<br>
+Descrever o mini-mundo. Não deve ser maior do que 30 linhas <br>
+
 4	RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
+neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
+
+Sugestão: https://balsamiq.com/products/mockups/<br>
+
+![Alt text](https://github.com/discipbd1/trab01/blob/master/balsamiq.png?raw=true "Title")
+
+
 5	MODELO CONCEITUAL<br>
+Incluir imagem do modelo conceitual do banco, as decisões de projeto e descrição dos dados<br>
+
+5.1 decisoes de projeto<br>
+atributo: descrição<br>
+EXEMPLO:<br>
+a) Campo endereço: em nosso projeto optamos por um campo multivalorado e composto, pois a empresa pode possuir para cada departamento mais de uma localização... 
+
+5.2 DESCRIÇÃO DOS DADOS <br>
+Nome Entidade:definição<br>
+nome atributo: definição<br>
+EXEMPLO:<br>
+CLIENTE: Tabela que armazena as informações relativas ao cliente<br>
+CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>
+
+
 6	MODELO LÓGICO<br>
+
+
 7	MODELO FÍSICO<br>
 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 9	TABELAS E PRINCIPAIS CONSULTAS<br>
