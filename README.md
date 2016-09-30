@@ -28,18 +28,16 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
     atributo: descrição
     
     EXEMPLO:
-    a) **Campo endereço**: em nosso projeto optamos por um campo multivalorado e composto, pois a empresa 
+    a) Campo endereço: em nosso projeto optamos por um campo multivalorado e composto, pois a empresa 
     pode possuir para cada departamento mais de uma localização... 
 
     5.2 DESCRIÇÃO DOS DADOS 
     EXEMPLO:
-    **CLIENTE**: Tabela que armazena as informações relativas ao cliente<br>
+    CLIENTE: Tabela que armazena as informações relativas ao cliente<br>
     CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>
 
 
 6	MODELO LÓGICO<br>
-
-
 7	MODELO FÍSICO<br>
 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 9	TABELAS E PRINCIPAIS CONSULTAS<br>
