@@ -21,19 +21,18 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 
 
 5	MODELO CONCEITUAL<br>
-Incluir imagem do modelo conceitual do banco, as decisões de projeto e descrição dos dados<br>
+![Alt text](https://github.com/discipbd1/trab01/blob/master/sample_MC.png?raw=true "Modelo Conceitual")
 
-5.1 decisoes de projeto<br>
-atributo: descrição<br>
-EXEMPLO:<br>
-a) Campo endereço: em nosso projeto optamos por um campo multivalorado e composto, pois a empresa pode possuir para cada departamento mais de uma localização... 
 
-5.2 DESCRIÇÃO DOS DADOS <br>
-Nome Entidade:definição<br>
-nome atributo: definição<br>
-EXEMPLO:<br>
-CLIENTE: Tabela que armazena as informações relativas ao cliente<br>
-CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>
+    5.1 decisoes de projeto
+    atributo: descrição
+    EXEMPLO:
+    a) Campo endereço: em nosso projeto optamos por um campo multivalorado e composto, pois a empresa pode possuir para cada departamento mais de uma localização... 
+
+  5.2 DESCRIÇÃO DOS DADOS 
+  EXEMPLO:<br>
+  CLIENTE: Tabela que armazena as informações relativas ao cliente<br>
+  CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>
 
 
 6	MODELO LÓGICO<br>
