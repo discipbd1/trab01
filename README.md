@@ -23,15 +23,15 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 ###5	MODELO CONCEITUAL<br>
 ![Alt text](https://github.com/discipbd1/trab01/blob/master/sample_MC.png?raw=true "Modelo Conceitual")
 
-    
-    ####5.1 DECISÕES DE PROJETO
+
+####5.1 DECISÕES DE PROJETO
     [atributo]: [descrição da decisão]
     
     EXEMPLO:
     a) Campo endereço: em nosso projeto optamos por um campo multivalorado e composto, pois a empresa 
     pode possuir para cada departamento mais de uma localização... 
 
-    ####5.2 DESCRIÇÃO DOS DADOS 
+####5.2 DESCRIÇÃO DOS DADOS 
     [objeto]: [descrição do objeto]
     
     EXEMPLO:
@@ -42,14 +42,18 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 ###6	MODELO LÓGICO<br>
 ###7	MODELO FÍSICO<br>
 ###8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
-    ####8.1 DETALHAMENTO DAS INFORMAÇÕES
+####8.1 DETALHAMENTO DAS INFORMAÇÕES
         Detalhamento sobre as informações e processo de obtenção ou geração dos dados.
         Referenciar todas as fontes referentes a :
         a) obtenção dos dados
         b) obtenção de códigos reutilizados
         c) fontes de estudo para desenvolvimento do projeto
         
-    8.2 
+####8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
+        a) inclusão das instruções para criação das tabelas e estruturas de amazenamento do BD
+        b) inclusão das instruções de inserção dos dados nas referidas tabelas
+        c) inclusão das instruções para execução de outros procedimentos necessários
+
 ###9	TABELAS E PRINCIPAIS CONSULTAS<br>
 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS<br>
 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE<br>
