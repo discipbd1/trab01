@@ -23,8 +23,8 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 ###5	MODELO CONCEITUAL<br>
 ![Alt text](https://github.com/discipbd1/trab01/blob/master/sample_MC.png?raw=true "Modelo Conceitual")
 ####Validação do Modelo Conceitual
-    [Grupo01]: [Nomes dos que participarm na avaliação]
-    [Grupo02]: [Nomes dos que participarm na avaliação]
+    [Grupo01]: [Nomes dos que participaram na avaliação]
+    [Grupo02]: [Nomes dos que participaram na avaliação]
 
 ####5.1 DECISÕES DE PROJETO
     [atributo]: [descrição da decisão]
