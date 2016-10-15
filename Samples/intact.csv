@@ -1,0 +1,6 @@
+uniprotkb_A	uniprotkb_B		gene_symbol_A	gene_symbol_B	interaction_detection_method	publication_1st_author	year	pubmed	taxid_A	taxid_B	interaction_identifier	Confidence value(s)
+P20263	P52480		Pou5f1	pkm	"psi-mi:""MI:0096""(pull down)"	Lee et al. 	2007	18191611	10090	10090	EBI-1606211	0.42
+P20263	P52480		Pou5f1	pkm	"psi-mi:""MI:0096""(pull down)"	Lee et al. 	2007	18191611	10090	10090	EBI-1606295	0.42
+P20263	P52480		Pou5f1	pkm	"psi-mi:""MI:0096""(pull down)"	Lee et al. 	2007	18191611	10090	10090	EBI-1606256	0.42
+P52480	P20263		pkm	Pou5f1	"psi-mi:""MI:0007""(anti tag coimmunoprecipitation)"	Lee et al. 	2007	18191611	10090	10090	EBI-1606279	0.42
+P20263	P52480		Pou5f1	pkm	"psi-mi:""MI:0096""(pull down)"	Lee et al. 	2007	18191611	10090	10090	EBI-1606607	0.42
