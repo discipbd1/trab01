@@ -67,7 +67,7 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 ####9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 2)<br>
 ####9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 3) <br>
 ####9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
-####9.6	CONSULTAS COM JUNÇÃO (Todas)<br>
+####9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Todas Junções)<br>
 ####9.7	CONSULTAS COM GROUP BY (Mínimo 5)<br>
 ####9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4)<br>
 ####9.9	CONSULTAS COM SELF JOIN E VIEW (Todas Possíveis)<br>
