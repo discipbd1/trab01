@@ -1,5 +1,10 @@
 # AVISO
+<<<<<<< HEAD
 TRABALHO DESENVOLVIDO NA WIKI -> https://github.com/annavicente/trab01/wiki
+=======
+ TRABALHO DESENVOLVIDO NA WIKI -> https://github.com/annavicente/trab01/wiki
+
+>>>>>>> desenvolvimento
 
 
 # TRABALHO 01

@@ -1,0 +1,10 @@
+uniprotkb_A,uniprotkb_B,gene_symbol_A,gene_symbol_B,interaction_detection_method,publication_1st_author,publication_year,taxid_interactor_A,taxid_interactor_B,intact_miscore,curation_deph,interaction_type
+O00231,P55036,PSMD11,PSMD4,MI:0007,Hamazaki et al. ,2006,9606,9606,0.40,,
+P55036,O00232,PSMD4,PSMD12,MI:0007,Hamazaki et al. ,2006,9606,9606,0.40,,
+P55036,Q9UNM6,PSMD4,PSMD13,MI:0007,Hamazaki et al. ,2006,9606,9606,0.59,,
+P55036,P54725,PSMD4,RAD23A,MI:0007,Hamazaki et al. ,2006,9606,9606,0.78,,
+P54727,P55036,RAD23B,PSMD4,MI:0007,Hamazaki et al. ,2006,9606,9606,0.79,,
+P60900,Q16186,PMSMA6,ADRM1,MI:0007,Hamazaki et al. ,2006,9606,9606,0.40,,
+Q13200,Q16186,PSMD2,ADRM1,MI:0007,Hamazaki et al. ,2006,9606,9606,0.46,,
+Q16186,Q9Y5K5,ADRM1,UCHL5,MI:0007,Hamazaki et al. ,2006,9606,9606,0.96,,
+Q16186,P55036,ADRM1,PSMD4,MI:0007,Hamazaki et al. ,2006,9606,9606,0.56,,
