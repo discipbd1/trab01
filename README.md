@@ -89,6 +89,12 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 ###11	DIFICULDADES ENCONTRADAS PELO GRUPO<br>
 ###12  FORMATACAO NO GIT: https://help.github.com/articles/basic-writing-and-formatting-syntax/
 
+###OBSERVAÇÕES IMPORTANTES
+
+#### Em tese todos os arquivos do trabalho devem ser compartilhados no git 
+1. (Caso existam arquivos com conteúdos sigilosos, comunicar o professor que definirá em conjunto com o grupo a melhor forma de armazenamento do arquivo).
+#### Todos os grupos deverão fazer Fork deste repositório e dar permissões administrativas ao usuário deste GIT, para acompanhamento do trabalho.
+#### Os usuários criados no GIT devem possuir o nome de identificação do aluno (não serão aceitos nomes como Eu123, meuprojeto, pro456, etc). Em caso de dúvida comunicar o professor.
 
 
 
