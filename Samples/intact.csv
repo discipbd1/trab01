@@ -1,4 +1,4 @@
-uniprotkb_A	uniprotkb_B	gene_symbol_A	gene_symbol_B	interaction_detection_method	publication_1st_author	publication_year	publication_identifier	taxid_interactor_A	taxid_interactor_B	interaction_identifier	confidence_value
+uniprotkb_A	uniprotkb_B	gene_symbol_A	gene_symbol_B	interaction_detection_method	publication_first_author	publication_year	publication_identifier	taxid_interactor_A	taxid_interactor_B	interaction_identifier	confidence_value
 P20263	P52480	Pou5f1	pkm	MI:0096	Lee et al. 	2007	18191611	10090	10090	EBI-1606211	0.42
 P20263	P52480	Pou5f1	pkm	MI:0096	Lee et al. 	2007	18191611	10090	10090	EBI-1606295	0.42
 P20263	P52480	Pou5f1	pkm	MI:0096	Lee et al. 	2007	18191611	10090	10090	EBI-1606256	0.42
