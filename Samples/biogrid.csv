@@ -1,4 +1,4 @@
-entrezgene_id_A	entrezgene_id_B	biogrid_id_A	gene_symbol_A	biogrid_id_B	gene_symbol_B	interaction_detection_method	publication_1st_author	publication_year	publication_identifier	taxid_interactor_A	taxid_interactor_B	interaction_identifier
+entrezgene_id_A	entrezgene_id_B	biogrid_id_A	gene_symbol_A	biogrid_id_B	gene_symbol_B	interaction_detection_method	publication_first_author	publication_year	publication_identifier	taxid_interactor_A	taxid_interactor_B	interaction_identifier
 6416	2318	112315	MAP2K4	108607	FLNC	MI:0018	Marti A 	1997	9006895	9606	9606	103
 84665	88	124185	MYPN	106603	ACTN2	MI:0018	Bang ML	2001	11309420	9606	9606	117
 90	2339	106605	ACVR1	108625	FNTA	MI:0018	Wang T 	1996	8599089	9606	9606	183
