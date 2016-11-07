@@ -19,6 +19,8 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 
 ![Alt text](https://github.com/discipbd1/trab01/blob/master/balsamiq.png?raw=true "Title")
 
+####4.1 TABELA DE DADOS DO SISTEMA:
+    Esta tabela deve conter todos os atributos do sistema e um mínimo de 10 linhas.
 
 ###5	MODELO CONCEITUAL<br>
     5.1 NOTACAO ENTIDADE RELACIONAMENTO
