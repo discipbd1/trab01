@@ -11,7 +11,8 @@ CREATE TABLE HPRD (
   protein_accession_A VARCHAR(100),
   HPRD_B INT,
   protein_accession_B VARCHAR(100),
-  PRIMARY KEY (HPRD_A)
+  cod SERIAL,
+  PRIMARY KEY(cod)
 ) INHERITS (MASTER);
 
 CREATE TABLE BioGrid(
@@ -20,27 +21,31 @@ CREATE TABLE BioGrid(
   interaction_detection_method VARCHAR(50),
   publication_first_author VARCHAR(100),
   publication_year INT,
+  interaction_type VARCHAR(50),
   publication_identifier INT,	
   interaction_identifier INT,
-  PRIMARY KEY (biogrid_A)
+  cod SERIAL,
+  PRIMARY KEY (cod)
 )INHERITS (MASTER);
 
 CREATE TABLE MINT(
  interaction_detection_method VARCHAR(50),
  publication_first_author VARCHAR(100),
  publication_year INT,
- intact_miscore FLOAT,
- mint_A SERIAL,
- PRIMARY KEY (mint_A)
+ interaction_type VARCHAR(50),
+ publication_identifier INT,
+ interaction_identifier VARCHAR(50),
+ cod SERIAL,
+ PRIMARY KEY (cod)
 )INHERITS (MASTER);
 
 CREATE TABLE INTACT(
  interaction_detection_method VARCHAR(50),
  publication_first_author VARCHAR(100),
  publication_year INT,
+ interaction_type VARCHAR(50),
  publication_identifier INT,
  interaction_identifier VARCHAR(50),
- confidence_value FLOAT,
- intact_A SERIAL,
- PRIMARY KEY(intact_A)
+ cod SERIAL,
+ PRIMARY KEY(cod)
 )INHERITS (MASTER);
