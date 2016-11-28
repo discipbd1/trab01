@@ -49,3 +49,48 @@ CREATE TABLE INTACT(
  cod SERIAL,
  PRIMARY KEY(cod)
 )INHERITS (MASTER);
+
+
+
+
+
+CREATE TABLE RESEARCHER (
+cod INT,
+name VARCHAR(200),
+purpose VARCHAR(200),
+country VARCHAR(100),
+institution VARCHAR(200),
+state VARCHAR(100),
+email VARCHAR(200),
+PRIMARY KEY(cod));
+
+CREATE TABLE TYPE (
+cod INT PRIMARY KEY,
+description VARCHAR(200));
+
+CREATE TABLE CONTACT (
+cod INT PRIMARY KEY,
+cod_type INTEGER,
+description VARCHAR(200));
+
+CREATE TABLE SEARCH (
+cod_researcher INTEGER,
+uniprotkb_a VARCHAR(10),
+FOREIGN KEY(cod_researcher) REFERENCES RESEARCHER (cod));
+
+
+CREATE TABLE RESEARCHER_CONTACT (
+cod_researcher INTEGER,
+cod_contact INTEGER,
+FOREIGN KEY(cod_contact) REFERENCES CONTACT (cod));
+
+
+
+
+
+
+
+
+
+
+
