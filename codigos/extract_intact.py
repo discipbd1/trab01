@@ -3,7 +3,7 @@ import re
 def main():
 	#abertura dos arquivos necessarios
 	arqout = open("../../../user/output/intact.txt","a")
-	arqout.write('uniprotkbA'+'\t'+'uniprotkbB'+'\t'+'gene_symbolA'+'\t'+'gene_symbolB'+'\t'+'interaction_detection_method'+'\t'+'publication_first_author'+'\t'+'publication_year'+'\t'+'publication_identifier'+'\t'+'interaction_type'+'\t'+'interaction_identifier'+'\t'+'confidence_value\n')
+	arqout.write('uniprotkb_A'+'\t'+'uniprotkb_B'+'\t'+'gene_symbol_A'+'\t'+'gene_symbol_B'+'\t'+'interaction_detection_method'+'\t'+'publication_first_author'+'\t'+'publication_year'+'\t'+'publication_identifier'+'\t'+'interaction_type'+'\t'+'interaction_identifier'+'\t'+'confidence_value\n')
 	arqin = open("intact.txt",'r')
 
 	#leitura do arquivo principal
@@ -26,9 +26,10 @@ def main():
 
 			publication_first_author = re.search('([A-Za-z]+\s)([A-Z]+)|([A-Za-z]+\s\s)([A-Z]+)|[A-Za-z]+|[-]',sep[7])
 			year = re.search('(\d{4})',sep[7])
-			ano = year.group() if year is not None else '-'
+			ano = year.group() if year is not None else '-1'
 
-			publication_identifier = re.search('(pubmed:)(\d{1,})|(pubmed:)([a-z0-9]+)',sep[8]) #group(2)
+			publication_identifier = re.search('(pubmed:)(\d{1,})',sep[8]) #group(2)
+			pi = publication_identifier.group(2) if publication_identifier is not None else '-1'
 
 			interaction_type = re.search('(psi-mi:\")(MI:\d{4,})',sep[11]) #group(2)
 
@@ -36,9 +37,9 @@ def main():
 
 			confidence_value = re.search('(intact-miscore:){1,}.{1,}',sep[14])
 			cv = confidence_value.group().split(':')
-
+	
 			if geneA is not None and geneB is not None:
-				arqout.write(uniprotkbA.group(2)+'\t'+uniprotkbB.group(2)+'\t'+geneA.group(2)+'\t'+geneB.group(2)+'\t'+interaction_detection_method.group(2)+'\t'+publication_first_author.group()+'\t'+ano+'\t'+str(publication_identifier.group(2))+'\t'+interaction_type.group(2)+'\t'+interaction_identifier.group(2)+'\t'+cv[1]+'\n')
+				arqout.write(uniprotkbA.group(2)+'\t'+uniprotkbB.group(2)+'\t'+geneA.group(2)+'\t'+geneB.group(2)+'\t'+interaction_detection_method.group(2)+'\t'+publication_first_author.group()+'\t'+ano+'\t'+pi+'\t'+interaction_type.group(2)+'\t'+interaction_identifier.group(2)+'\t'+cv[1]+'\n')
 				
 		linha = arqin.readline()	
 

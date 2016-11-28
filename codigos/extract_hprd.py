@@ -2,7 +2,7 @@
 
 def main():
 	arqout = open('../../../user/output/hprd.txt','a')
-	arqout.write('uniprokbA'+'\t'+'uniprotkbB'+'\t'+'idA'+'\t'+'idB'+'\t'+'gene_symbolA'+'\t'+'gene_symbolB'+'\t'+'protein_accessionA'+'\t'+'protein_accessionB\n')
+	arqout.write('uniprotkb_A'+'\t'+'uniprotkb_B'+'\t'+'hprd_A'+'\t'+'hprd_B'+'\t'+'gene_symbol_A'+'\t'+'gene_symbol_B'+'\t'+'protein_accession_A'+'\t'+'protein_accession_B\n')
 
 	arqDic = open('map.txt','r')
 	arqin = open('sample_hprd.txt','r')

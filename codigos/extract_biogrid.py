@@ -4,7 +4,7 @@ def main():
 	#abertura dos arquivos necessarios
 	arqDic = open("UNIPROT.tab.txt",'r')
 	arqout = open("../../../user/output/biogrid.txt","a")
-	arqout.write('uniprotkbA'+'\t'+'uniprotkbB'+'\t'+'idA'+'\t'+'idB'+'\t'+'gene_symbolA'+'\t'+'gene_symbolB'+'\t'+'interaction_detection_method'+'\t'+'publication_first_author'+'\t'+'publication_year'+'\t'+'publication_identifier'+'\t'+'interaction_type'+'\t'+'interaction_identifier\n')
+	arqout.write('uniprotkb_A'+'\t'+'uniprotkb_B'+'\t'+'biogrid_A'+'\t'+'biogrid_B'+'\t'+'gene_symbol_A'+'\t'+'gene_symbol_B'+'\t'+'interaction_detection_method'+'\t'+'publication_first_author'+'\t'+'publication_year'+'\t'+'publication_identifier'+'\t'+'interaction_type'+'\t'+'interaction_identifier\n')
 	arqin = open("biogrid.txt",'r')
 
 	#mapeamento dos identificadores do biogrid para o uniprotkb

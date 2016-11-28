@@ -3,7 +3,7 @@ import re
 def main():
 	#abertura dos arquivos necessarios
 	arqout = open("../../../user/output/mint.txt","a")
-	arqout.write('uniprotkbA'+'\t'+'uniprotkbB'+'\t'+'gene_symbolA'+'\t'+'gene_symbolB'+'\t'+'interaction_detection_method'+'\t'+'publication_first_author'+'\t'+'publication_year'+'\t'+'publication_identifier'+'\t'+'interaction_type'+'\t'+'interaction_identifier'+'\t'+'intact_miscore\n')
+	arqout.write('uniprotkb_A'+'\t'+'uniprotkb_B'+'\t'+'gene_symbol_A'+'\t'+'gene_symbol_B'+'\t'+'interaction_detection_method'+'\t'+'publication_first_author'+'\t'+'publication_year'+'\t'+'publication_identifier'+'\t'+'interaction_type'+'\t'+'interaction_identifier'+'\t'+'intact_miscore\n')
 	arqin = open("mint.txt",'r')
 
 	#leitura do arquivo principal
@@ -26,7 +26,7 @@ def main():
 
 			publication_first_author = re.search('([A-Za-z]+\s)([A-Z]+)|([A-Za-z]+\s\s)([A-Z]+)|[A-Za-z]+|[-]',sep[7])
 			year = re.search('(\d{4})',sep[7])
-			ano = year.group() if year is not None else '-'
+			ano = year.group() if year is not None else '-1'
 
 			publication_identifier = re.search('(pubmed:)(\d{1,})|(pubmed:)([a-z0-9]+)',sep[8]) #group(2)
 
