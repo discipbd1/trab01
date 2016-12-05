@@ -11,7 +11,7 @@
 `SELECT * FROM mint;`
 ![Alt text](https://github.com/annavicente/trab01/blob/desenvolvimento/Imagens/consultas/mint.png) <br><br>
 
-`SELECT * FROM master;` <br>
+    SELECT * FROM master; <br>
 ![Alt text](https://github.com/annavicente/trab01/blob/desenvolvimento/Imagens/consultas/master.png) <br><br>
 
 `SELECT * FROM contact;`<br>
