@@ -13,3 +13,20 @@
 
 `SELECT * FROM master;` <br>
 ![Alt text](https://github.com/annavicente/trab01/blob/desenvolvimento/Imagens/consultas/master.png) <br><br>
+
+`SELECT * FROM contact;`<br>
+![Alt text](https://github.com/annavicente/trab01/blob/desenvolvimento/Imagens/consultas/contact.png) <br><br>
+
+`SELECT * FROM researcher;`<br>
+![Alt text](https://github.com/annavicente/trab01/blob/desenvolvimento/Imagens/consultas/contact.png) <br><br>
+
+`SELECT * FROM researcher_contact;`<br>
+![Alt text](https://github.com/annavicente/trab01/blob/desenvolvimento/Imagens/consultas/researcher_contact.png) <br><br>
+
+`SELECT * FROM search;`<br>
+![Alt text](https://github.com/annavicente/trab01/blob/desenvolvimento/Imagens/consultas/search.png) <br><br>
+
+`SELECT * FROM type;`<br>
+![Alt text](https://github.com/annavicente/trab01/blob/desenvolvimento/Imagens/consultas/type.png) <br><br>
+
+
