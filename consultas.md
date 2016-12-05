@@ -30,4 +30,7 @@
     SELECT * FROM type;
 ![Alt text](https://github.com/annavicente/trab01/blob/desenvolvimento/Imagens/consultas/type.png) <br>
 
+##Consultas das tabelas com filtros WHERE (Mínimo 3) <br>
+
+
 
