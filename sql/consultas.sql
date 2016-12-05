@@ -90,8 +90,12 @@ SELECT gene_symbol_a, gene_symbol_b FROM hprd WHERE gene_symbol_a LIKE'%A' OR ge
 SELECT publication_first_author,(2016 - publication_year) AS "qtd anos"  FROM biogrid;
 
 
+/* WHERE */
+SELECT gene_symbol_a, gene_symbol_b FROM biogrid WHERE gene_symbol_a = 'MAP2K4';
 
+SELECT gene_symbol_a, gene_symbol_b FROM intact WHERE gene_symbol_a = 'TP53';
 
+SELECT gene_symbol_a, gene_symbol_b FROM mint WHERE gene_symbol_a = 'TP53';
 
 
 
