@@ -35,6 +35,8 @@ GROUP BY publication_year,gene_symbol_a, gene_symbol_b, publication_first_author
 SELECT gene_symbol_a, gene_symbol_b,publication_year,COUNT(publication_first_author) AS "qtd por ano" FROM biogrid
 GROUP BY publication_year,gene_symbol_a, gene_symbol_b, publication_first_author;
 
+/* LEFT E RIGHT JOIN */
+
 
 /* Atualizacao e Exclusao de dados */
 
@@ -76,18 +78,18 @@ SELECT gene_symbol_a, gene_symbol_b FROM intact WHERE gene_symbol_a LIKE'%A%';
 
 SELECT gene_symbol_a, gene_symbol_b FROM hprd WHERE gene_symbol_a LIKE'%A';
 
+
 /* OPERADORES LOGICOS E ARITMETICOS */
 
+SELECT gene_symbol_a AS "gene A", gene_symbol_b AS "gene B" FROM biogrid WHERE gene_symbol_a LIKE'A%' AND gene_symbol_b LIKE'A%';
 
-SELECT gene_symbol_a, gene_symbol_b FROM biogrid WHERE gene_symbol_a LIKE'A%' AND gene_symbol_b LIKE'A%';
+SELECT gene_symbol_a AS "gene A", gene_symbol_b as "gene B" FROM mint WHERE gene_symbol_a LIKE'_____' AND gene_symbol_b LIKE'_____';
 
-SELECT gene_symbol_a, gene_symbol_b FROM mint WHERE gene_symbol_a LIKE'_____' AND gene_symbol_b LIKE'_____';
+SELECT gene_symbol_a AS "gene A", gene_symbol_b AS "gene B" FROM intact WHERE gene_symbol_a LIKE'%A%' OR gene_symbol_b LIKE'%A%' ;
 
-SELECT gene_symbol_a, gene_symbol_b FROM intact WHERE gene_symbol_a LIKE'%A%' OR gene_symbol_b LIKE'%A%' ;
+SELECT gene_symbol_a AS "gene A", gene_symbol_b AS "gene B" FROM hprd WHERE gene_symbol_a LIKE'%A' OR gene_symbol_b LIKE'%A%';
 
-SELECT gene_symbol_a, gene_symbol_b FROM hprd WHERE gene_symbol_a LIKE'%A' OR gene_symbol_b LIKE'%A%';
-
-SELECT publication_first_author,(2016 - publication_year) AS "qtd anos"  FROM biogrid;
+SELECT publication_first_author AS "Author",(2016 - publication_year) AS "publication time"  FROM biogrid;
 
 
 /* WHERE */
