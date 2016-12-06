@@ -85,7 +85,7 @@ ALTER TABLE RESEARCHER_CONTACT ADD FOREIGN KEY(cod_researcher) REFERENCES RESEAR
 /* ---------------------------------------- */
 
 
-INSERT INTO biogrid(uniprotkb_A,uniprotkb_B,biogridid_A,gene_symbol_A,biogrid_B,gene_symbol_B,interaction_detection_method,publication_first_author,publication_year,publication_identifier,interaction_identifier)
+INSERT INTO biogrid(uniprotkb_A,uniprotkb_B,biogrid_A,gene_symbol_A,biogrid_B,gene_symbol_B,interaction_detection_method,publication_first_author,publication_year,publication_identifier,interaction_identifier)
 VALUES('P45985','Q14315',112315,'MAP2K4',108607,'FLNC','MI:0018','MartiA',1997,9006895,103),
 ('Q86TC9','P35609',124185,'MYPN',106603,'ACTN2','MI:0018','BangML',2001,11309420,117),
 ('Q04771','P49354',106605,'ACVR1',108625,'FNTA','MI:0018','Wang T',1996,8599089,183),
@@ -102,12 +102,11 @@ VALUES('P55036','P54725','PSMD4','RAD23A','MI:0007','Hamazaki et al.' ,2006,9006
 
 
 INSERT INTO intact(uniprotkb_A,uniprotkb_B,gene_symbol_A,gene_symbol_B,interaction_detection_method,publication_first_author,publication_year, publication_identifier, interaction_identifier)
-VALUES('P55036','P54725','PSMD4','RAD23A','MI:0007','Hamazaki et al.' ,2006,'EBI-1606211',103),
-('P54727','P55036','RAD23B','PSMD4','MI:0007','Hamazaki et al.' ,2006,'EBI-1606211',103),
-('P60900','Q16186','PMSMA6','ADRM1','MI:0007','Hamazaki et al.',2006,'EBI-1606211',103),
-('Q13200','Q16186','PSMD2','ADRM1','MI:0007','Hamazaki et al.' ,2006,'EBI-1606211',103),
-('Q16186','P55036','ADRM1','PSMD4','MI:0007','Hamazaki et al.',2006,'EBI-1606211',103);
-
+VALUES('P55036','P54725','PSMD4','RAD23A','MI:0007','Hamazaki et al.' ,2006,9006895,103),
+('P54727','P55036','RAD23B','PSMD4','MI:0007','Hamazaki et al.' ,2006,9006895,103),
+('P60900','Q16186','PMSMA6','ADRM1','MI:0007','Hamazaki et al.',2006,9006895,103),
+('Q13200','Q16186','PSMD2','ADRM1','MI:0007','Hamazaki et al.' ,2006,9006895,103),
+('Q16186','P55036','ADRM1','PSMD4','MI:0007','Hamazaki et al.',2006,9006895,103);
 
 INSERT INTO hprd(uniprotkb_a,uniprotkb_b,gene_symbol_A,hprd_A,protein_accession_A,gene_symbol_B,hprd_B,protein_accession_B)
 VALUES ('P00352','P00352','ALDH1A1',1,'NP_000680.2','ALDH1A1',1,'NP_000680.2'),
@@ -117,38 +116,33 @@ VALUES ('P00352','P00352','ALDH1A1',1,'NP_000680.2','ALDH1A1',1,'NP_000680.2'),
 ('Q14451','P04626','GRB7',3311,'NP_005301.2','ERBB2',1281,'NP_004439.2');
 
 
-INSERT INTO type(description)
-VALUES ('email'),
-('fone'),
-('cellfone');
+INSERT INTO type(cod, description)
+VALUES (1,'email'),
+(2,'fone'),
+(3,'cellfone');
 
 
-INSERT INTO RESEARCHER(name, purpose, country, institution, state, email)
-VALUES ('Ana','trabalho de bd', 'Brasil','ifes','es','email@email.com'),
-('Cristian', 'cobaia de teste', 'Lua', 'ifes', 'solido','email@mail.com'),
-('Danilo', 'cobaia de teste 2 ', 'Marte', 'ifes', 'quase vapor','email@mail.com'),
-('Jennifer','trabalho de bd', 'Brasil','ifes','es','email@email.com');
+INSERT INTO RESEARCHER(cod,name, purpose, country, institution, state, email)
+VALUES (1,'Ana','trabalho de bd', 'Brasil','ifes','es','email@email.com'),
+(2,'Cristian', 'cobaia de teste', 'Lua', 'ifes', 'solido','email@mail.com'),
+(3,'Danilo', 'cobaia de teste 2 ', 'Marte', 'ifes', 'quase vapor','email@mail.com'),
+(4,'Jennifer','trabalho de bd', 'Brasil','ifes','es','email@email.com');
 
 
-INSERT INTO contact(typeid, description)
+INSERT INTO contact(cod, description)
 VALUES (1,'email@mail.com'),
 (3,'99999-9999'),
-(2,'3333-3333'),
-(1,'email@mail.com'),
-(3,'4444-4444');
+(2,'3333-3333');
 
-INSERT INTO researcher_contact(id_researcher,contactid)
+INSERT INTO researcher_contact(cod_researcher,cod_contact)
 VALUES (1,1),
-(1,5),
 (2,3),
-(3,2),
-(4,4);
+(3,2);
 
 
-INSERT INTO search(id_researcher, uniprotkbid_a)
+INSERT INTO search(cod_researcher, uniprotkb_a)
 VALUES (1, 'P20263'),
 (1,'P52480'),
-(4,'Q13200'),
 (3,'P45985');
 
 
