@@ -101,8 +101,14 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 ####9.10	SUBCONSULTAS (Mínimo 3)<br>
         Entrega até este ponto em 29/11/2016
 ###10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES PARA APRESENTAÇAO FINAL (Mínimo 6 e Máximo 10)<br>
-###11	DIFICULDADES ENCONTRADAS PELO GRUPO<br>
-###12  FORMATACAO NO GIT: https://help.github.com/articles/basic-writing-and-formatting-syntax/
+###11	TUTORIAL COMPLETO DE PASSOS PARA RESTAURACAO DO BANCO E EXECUCAO DE PROCEDIMENTOS ENVOLVIDOS NO TRABALHO PARA OBTENÇÃO DOS RESULTADOS<br>
+        a) Outros grupos deverão ser capazes de restaurar o banco 
+        b) executar todas as consultas presentes no trabalho
+        c) executar códigos que tenham sido construídos para o trabalho 
+        d) realizar qualquer procedimento executado pelo grupo que desenvolveu o trabalho
+        
+###12   DIFICULDADES ENCONTRADAS PELO GRUPO<br>
+###13  FORMATACAO NO GIT: https://help.github.com/articles/basic-writing-and-formatting-syntax/
 
 ###OBSERVAÇÕES IMPORTANTES
 
