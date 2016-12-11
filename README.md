@@ -5,6 +5,7 @@ Trabalho desenvolvido durante a disciplina de BD
 
 ###1	COMPONENTES<br>
 Integrantes do grupo<br>
+seu_nome:seu_email@dominio.com<br>
 
 ###2	INTRODUÇÃO E MOTIVAÇAO<br>
 Este documento contém a especificação do projeto do banco de dados <nome do projeto> e motivação da escolha realizada. <br>
@@ -50,10 +51,14 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 
 
 ###6	MODELO LÓGICO<br>
+        a) inclusão do modelo lógico do banco de dados
+        b) verificação de correspondencia com o modelo conceitual (não serão aceitos modelos que não estejam em conformidade)
+
 ###7	MODELO FÍSICO<br>
-
-
-
+        a) inclusão das instruções de criacão das estruturas DDL (criação de tabelas, alterações, etc..)
+        
+        
+        
         Entrega até este ponto em 25/10/2016
 
 ###8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
@@ -65,12 +70,15 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
         c) fontes de estudo para desenvolvimento do projeto
 
 
-####8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
-        a) inclusão das instruções para criação das tabelas e estruturas de amazenamento do BD
-        b) inclusão das instruções de inserção dos dados nas referidas tabelas
-        c) inclusão das instruções para execução de outros procedimentos necessários
+####8.2 INCLUSÃO DO SCRIPT DE INSERÇÃO DOS DADOS
+        a) inclusão das instruções de inserção dos dados nas tabelas criadas pelo script de modelo físico
+        b) inclusão das instruções para execução de outros procedimentos necessários (caso existam)
 
-
+####8.3 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
+        a) Junção dos scripts anteriores em um único script (tabelas e estruturas de dados + dados a serem inseridos)
+        b) Criar um novo banco de dados para testar a restauracao (em caso de falha na restauração o grupo não pontuará neste quesito)
+        
+        
         Entrega até este ponto em 01/11/2016
 
 
