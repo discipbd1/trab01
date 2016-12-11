@@ -52,10 +52,12 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 
 ###6	MODELO LÓGICO<br>
         a) inclusão do modelo lógico do banco de dados
-        b) verificação de correspondencia com o modelo conceitual (não serão aceitos modelos que não estejam em conformidade)
+        b) verificação de correspondencia com o modelo conceitual 
+        (não serão aceitos modelos que não estejam em conformidade)
 
 ###7	MODELO FÍSICO<br>
-        a) inclusão das instruções de criacão das estruturas DDL (criação de tabelas, alterações, etc..)
+        a) inclusão das instruções de criacão das estruturas DDL 
+        (criação de tabelas, alterações, etc..)
         
         
         
@@ -75,8 +77,10 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
         b) inclusão das instruções para execução de outros procedimentos necessários (caso existam)
 
 ####8.3 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
-        a) Junção dos scripts anteriores em um único script (tabelas e estruturas de dados + dados a serem inseridos)
-        b) Criar um novo banco de dados para testar a restauracao (em caso de falha na restauração o grupo não pontuará neste quesito)
+        a) Junção dos scripts anteriores em um único script 
+        (tabelas e estruturas de dados + dados a serem inseridos)
+        b) Criar um novo banco de dados para testar a restauracao 
+        (em caso de falha na restauração o grupo não pontuará neste quesito)
         
         
         Entrega até este ponto em 01/11/2016
