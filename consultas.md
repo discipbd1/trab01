@@ -19,7 +19,7 @@
 ![Alt text](https://github.com/annavicente/trab01/blob/desenvolvimento/Imagens/consultas/contact.png) <br>
 
     SELECT * FROM researcher;
-![Alt text](https://github.com/annavicente/trab01/blob/desenvolvimento/Imagens/consultas/contact.png) <br>
+![Alt text](https://github.com/annavicente/trab01/blob/desenvolvimento/Imagens/consultas/researcher.png) <br>
 
     SELECT * FROM researcher_contact;
 ![Alt text](https://github.com/annavicente/trab01/blob/desenvolvimento/Imagens/consultas/researcher_contact.png) <br>
