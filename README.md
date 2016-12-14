@@ -1,3 +1,6 @@
+# AVISO
+TRABALHO DESENVOLVIDO NA WIKI -> https://github.com/annavicente/trab01/wiki
+
 # TRABALHO 01
 Trabalho desenvolvido durante a disciplina de BD
 
