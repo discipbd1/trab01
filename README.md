@@ -9,10 +9,13 @@ seu_nome:seu_email@dominio.com<br>
 segundo_nome:segundo_email@dominio.com<br>
 
 ###2	INTRODUÇÃO E MOTIVAÇAO<br>
-Este documento contém a especificação do projeto do banco de dados <nome do projeto> e motivação da escolha realizada. <br>
+Este documento contém a especificação do projeto do banco de dados <nome do projeto> 
+<br>e motivação da escolha realizada. <br>
 
 ###3	MINI-MUNDO<br>
-Descrever o mini-mundo. Não deve ser maior do que 30 linhas <br><br>
+
+Descrever o mini-mundo! (Não deve ser maior do que 30 linhas) <br>
+Entrevista com o usuário e identificação dos requisitos.<br>
 Descrição textual das regras de negócio definidas como um  subconjunto do mundo real 
 cujos elementos são propriedades que desejamos incluir, processar, armazenar, 
 gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
