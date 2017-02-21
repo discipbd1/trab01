@@ -12,10 +12,13 @@ segundo_nome:segundo_email@dominio.com<br>
 Este documento contém a especificação do projeto do banco de dados <nome do projeto> e motivação da escolha realizada. <br>
 
 ###3	MINI-MUNDO<br>
-Descrever o mini-mundo. Não deve ser maior do que 30 linhas <br>
+Descrever o mini-mundo. Não deve ser maior do que 30 linhas <br><br>
+Descrição textual das regras de negócio definidas como um  subconjunto do mundo real 
+cujos elementos são propriedades que desejamos incluir, processar, armazenar, 
+gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
 
 ###4	RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
-neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
+Neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
 
 Sugestão: https://balsamiq.com/products/mockups/<br>
 
@@ -62,7 +65,7 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
         
         
         
-        Entrega até este ponto em 25/10/2016
+        Entrega até este ponto em: (Data a ser definida)
 
 ###8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 ####8.1 DETALHAMENTO DAS INFORMAÇÕES
@@ -84,23 +87,23 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
         (em caso de falha na restauração o grupo não pontuará neste quesito)
         
         
-        Entrega até este ponto em 01/11/2016
+        Entrega até este ponto em: (Data a ser definida)
 
 
 ###9	TABELAS E PRINCIPAIS CONSULTAS<br>
 ####9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
-        Entrega até este ponto em 08/11/2016
+        Entrega até este ponto em: (Data a ser definida)
 ####9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 3)<br>
 ####9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 2)<br>
 ####9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 3) <br>
 ####9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
 ####9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Todas Junções)<br>
-        Entrega até este ponto em 22/11/2016
+        Entrega até este ponto em: (Data a ser definida)
 ####9.7	CONSULTAS COM GROUP BY (Mínimo 5)<br>
 ####9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4)<br>
 ####9.9	CONSULTAS COM SELF JOIN E VIEW (Todas Possíveis)<br>
 ####9.10	SUBCONSULTAS (Mínimo 3)<br>
-        Entrega até este ponto em 29/11/2016
+        Entrega até este ponto em: (Data a ser definida)
 ###10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES PARA APRESENTAÇAO FINAL (Mínimo 6 e Máximo 10)<br>
 ###11	TUTORIAL COMPLETO DE PASSOS PARA RESTAURACAO DO BANCO E EXECUCAO DE PROCEDIMENTOS ENVOLVIDOS NO TRABALHO PARA OBTENÇÃO DOS RESULTADOS<br>
         a) Outros grupos deverão ser capazes de restaurar o banco 
