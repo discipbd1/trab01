@@ -1,7 +1,7 @@
 # TRABALHO 01:  Título do Trabalho
 Trabalho desenvolvido durante a disciplina de BD
 
-#Sumário
+# Sumário
 
 ### 1. COMPONENTES<br>
 Integrantes do grupo<br>
@@ -41,7 +41,7 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
         Garantir que a semântica dos atributos seja clara no esquema
         Criar o esquema de forma a garantir a redução de informação redundante, possibilidade de valores null, 
         e tuplas falsas
-    <br>
+    
 #### 5.1 Validação do Modelo Conceitual
     [Grupo01]: [Nomes dos que participaram na avaliação]
     [Grupo02]: [Nomes dos que participaram na avaliação]
