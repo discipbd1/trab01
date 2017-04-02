@@ -36,7 +36,9 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 ![Alt text](https://github.com/discipbd1/trab01/blob/master/sample_MC.png?raw=true "Modelo Conceitual")
     
     B) NOTACAO UML (Caso esteja fazendo a disciplina de analise)
-
+    C) QUALIDADE 
+        Garantir que a semântica dos atributos seja clara no esquema
+        Criar o esquema de forma a garantir a redução de informação redundante, possibilidade de valores null, e tuplas falsas
 #### 5.1 Validação do Modelo Conceitual
     [Grupo01]: [Nomes dos que participaram na avaliação]
     [Grupo02]: [Nomes dos que participaram na avaliação]
