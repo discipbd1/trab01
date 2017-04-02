@@ -29,7 +29,8 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 
 #### 4.1 TABELA DE DADOS DO SISTEMA:
     Esta tabela deve conter todos os atributos do sistema e um mínimo de 10 linhas.
-    (esta tabela tem a intenção de simular um relatório com todos os dados que serão armazenados e deve ser criada antes do modelo conceitual)
+    (esta tabela tem a intenção de simular um relatório com todos os dados que serão armazenados 
+    e deve ser criada antes do modelo conceitual)
 
 ### 5.MODELO CONCEITUAL<br>
     A) NOTACAO ENTIDADE RELACIONAMENTO
@@ -38,7 +39,9 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
     B) NOTACAO UML (Caso esteja fazendo a disciplina de analise)
     C) QUALIDADE 
         Garantir que a semântica dos atributos seja clara no esquema
-        Criar o esquema de forma a garantir a redução de informação redundante, possibilidade de valores null, e tuplas falsas
+        Criar o esquema de forma a garantir a redução de informação redundante, possibilidade de valores null, 
+        e tuplas falsas
+    <br>
 #### 5.1 Validação do Modelo Conceitual
     [Grupo01]: [Nomes dos que participaram na avaliação]
     [Grupo02]: [Nomes dos que participaram na avaliação]
