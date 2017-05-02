@@ -34,7 +34,7 @@ O Dono, com acesso total do sistema pode verificar o histórico de compra e vend
  https://github.com/Tadeujr/trab01/blob/yan/AIpao3.2.pdf
 
 4.1 TABELA DE DADOS DO SISTEMA:
-https://docs.google.com/spreadsheets/d/1JBbAo0VUQsOB8ZVPGZQFmyrlxMNNWYwclLrhofatXZA/edit?usp=sharing
+https://github.com/Tadeujr/trab01/blob/yan/Campos%20aipao.txt
 
 
 
