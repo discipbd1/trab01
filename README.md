@@ -1,10 +1,10 @@
-IPAO
+# TRABALHO 01: IPAO
 
 Trabalho desenvolvido durante a disciplina de BD
 
-Sumário
+# Sumário
 
-1. COMPONENTES
+### 1. COMPONENTES
 
 Integrantes do grupo
 Yan de Paula Gonçalves / yanw100@gmail.com
@@ -12,12 +12,12 @@ Lucas Gomes Flegher / lukas.gomes2010@gmail.com
 Tadeu da Penha Moraes Junior / tadeu_junior@outlook.com
 Ewerson Vieira / 
 
-2.INTRODUÇÃO E MOTIVAÇÃO
+### 2.INTRODUÇÃO E MOTIVAÇÃO
 
 Com o avanço da tecnologia e o aumento de novas padarias, foi pensado em um aplicativo, inicialmente para dispositivos móveis, que auxilie diversos usuários a encontrar padarias perto de onde os mesmos se encontram.
 Com esse aplicativo o usuário terá várias opções, dentre elas: saber quais sao os produtos que existem na padaria, fazer uma encomenda e pedidos, saber o horário de funcionamento, avaliar a padaria, dentre outras funcionalidades.
 
-3.MINI-MUNDO
+### 3.MINI-MUNDO
 
 Devido ao grande aumento de padarias, foi proposto um aplicativo, inicialmente para celulares, que auxilie o usuário encontrar e obter informações a respeito de padarias em sua região. A principal atividade realizada por esse aplicativo é facilitar a comunicação entre o usuário do aplicativo e a padaria.
 
@@ -29,17 +29,17 @@ O usuário, tem acesso ao local da padaria, horário de funcionamento, se realiz
 
 O Dono, com acesso total do sistema pode verificar o histórico de compra e venda verifica a situação da padaria, podendo ver todos os produtos vendidos durante um período de tempo. Para o Dono é importante um relatório de seus produtos mais vendidos, bem como os produtos menos vendidos, para o fim de controlar a produção evitando o desperdício de mercadoria e como consequência aumentar seus lucros.
 
-4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)
+### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)
 
  https://github.com/Tadeujr/trab01/blob/yan/AIpao3.2.pdf
 
-4.1 TABELA DE DADOS DO SISTEMA:
 
- https://github.com/Tadeujr/trab01/blob/yan/Campos%20aipao.txt
+#### 4.1 TABELA DE DADOS DO SISTEMA:
+https://github.com/Tadeujr/trab01/blob/yan/Campos%20aipao.txt
 
 
 
-5.MODELO CONCEITUAL
+### 5.MODELO CONCEITUAL
 A) NOTACAO ENTIDADE RELACIONAMENTO
 
 
@@ -52,13 +52,13 @@ C) QUALIDADE
     e tuplas falsas
 
 
-5.1 Validação do Modelo Conceitual
+#### 5.1 Validação do Modelo Conceitual
 
 [Grupo01]: [Nomes dos que participaram na avaliação]
 [Grupo02]: [Nomes dos que participaram na avaliação]
 
 
-5.2 DECISÕES DE PROJETO
+#### 5.2 DECISÕES DE PROJETO
 [atributo]: [descrição da decisão]
 
 EXEMPLO:
@@ -67,7 +67,7 @@ pode possuir para cada departamento mais de uma localização...
 b) justifique!
 
 
-5.3 DESCRIÇÃO DOS DADOS
+#### 5.3 DESCRIÇÃO DOS DADOS
 
 Tabela do Cartão, composta por (cpf, numero_cartao, nome_cartao, sec_cod, primeiro_nome, segundo_nome, mês, ano): Criada com o objetivo de agilizar a compra do cliente, ele pode querer guardar os dados do cartão ou não. Os campos são para legitimar o dono do cartão.
 
@@ -93,13 +93,13 @@ Tabela usuario, composta por(cpf, nome, rg, telefone, email), tabela com os camp
 
 
 
-6	MODELO LÓGICO
+### 6	MODELO LÓGICO
    a) inclusão do modelo lógico do banco de dados
     b) verificação de correspondencia com o modelo conceitual 
     (não serão aceitos modelos que não estejam em conformidade)
 
 
-7	MODELO FÍSICO
+### 7	MODELO FÍSICO
    a) inclusão das instruções de criacão das estruturas DDL 
     (criação de tabelas, alterações, etc..)
     
@@ -108,8 +108,8 @@ Tabela usuario, composta por(cpf, nome, rg, telefone, email), tabela com os camp
     Entrega até este ponto em: (Data a ser definida)
 
 
-8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS
-8.1 DETALHAMENTO DAS INFORMAÇÕES
+### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS
+#### 8.1 DETALHAMENTO DAS INFORMAÇÕES
    Detalhamento sobre as informações e processo de obtenção ou geração dos dados.
     Referenciar todas as fontes referentes a :
     a) obtenção dos dados
@@ -117,12 +117,12 @@ Tabela usuario, composta por(cpf, nome, rg, telefone, email), tabela com os camp
     c) fontes de estudo para desenvolvimento do projeto
 
 
-8.2 INCLUSÃO DO SCRIPT DE INSERÇÃO DOS DADOS
+#### 8.2 INCLUSÃO DO SCRIPT DE INSERÇÃO DOS DADOS
    a) inclusão das instruções de inserção dos dados nas tabelas criadas pelo script de modelo físico
     b) inclusão das instruções para execução de outros procedimentos necessários (caso existam)
 
 
-8.3 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
+#### 8.3 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
    a) Junção dos scripts anteriores em um único script 
     (tabelas e estruturas de dados + dados a serem inseridos)
     b) Criar um novo banco de dados para testar a restauracao 
@@ -132,43 +132,43 @@ Tabela usuario, composta por(cpf, nome, rg, telefone, email), tabela com os camp
     Entrega até este ponto em: (Data a ser definida)
 
 
-9	TABELAS E PRINCIPAIS CONSULTAS
-9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) 
+### 9	TABELAS E PRINCIPAIS CONSULTAS
+#### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) 
    Entrega até este ponto em: (Data a ser definida)
 
 
-9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 3)
-9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 2)
-9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 3) 
-9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)
-9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Todas Junções)
+#### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 3)
+#### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 2)
+#### 9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 3) 
+#### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)
+#### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Todas Junções)
    Entrega até este ponto em: (Data a ser definida)
 
 
-9.7	CONSULTAS COM GROUP BY (Mínimo 5)
-9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4)
-9.9	CONSULTAS COM SELF JOIN E VIEW (Todas Possíveis)
-9.10	SUBCONSULTAS (Mínimo 3)
+#### 9.7	CONSULTAS COM GROUP BY (Mínimo 5)
+#### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4)
+#### 9.9	CONSULTAS COM SELF JOIN E VIEW (Todas Possíveis)
+#### 9.10	SUBCONSULTAS (Mínimo 3)
    Entrega até este ponto em: (Data a ser definida)
 
 
-10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES PARA APRESENTAÇAO FINAL (Mínimo 6 e Máximo 10)
-11	TUTORIAL COMPLETO DE PASSOS PARA RESTAURACAO DO BANCO E EXECUCAO DE PROCEDIMENTOS ENVOLVIDOS NO TRABALHO PARA OBTENÇÃO DOS RESULTADOS
+### 10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES PARA APRESENTAÇAO FINAL (Mínimo 6 e Máximo 10)
+### 11	TUTORIAL COMPLETO DE PASSOS PARA RESTAURACAO DO BANCO E EXECUCAO DE PROCEDIMENTOS ENVOLVIDOS NO TRABALHO PARA OBTENÇÃO DOS RESULTADOS
    a) Outros grupos deverão ser capazes de restaurar o banco 
     b) executar todas as consultas presentes no trabalho
     c) executar códigos que tenham sido construídos para o trabalho 
     d) realizar qualquer procedimento executado pelo grupo que desenvolveu o trabalho
 
 
-12 DIFICULDADES ENCONTRADAS PELO GRUPO
-13 TRABALHO DE MINERAÇÃO DE DADOS
+### 12 DIFICULDADES ENCONTRADAS PELO GRUPO
+### 13 TRABALHO DE MINERAÇÃO DE DADOS
    a) captura das informaçõs
     b) integração com banco de dados em desenvolvimento
     c) atualização da documentação do trabalho incluindo a mineração de dados
 
 
-13 FORMATACAO NO GIT: https://help.github.com/articles/basic-writing-and-formatting-syntax/
-14 Backup completo do banco de dados postgres
+### 13 FORMATACAO NO GIT: https://help.github.com/articles/basic-writing-and-formatting-syntax/
+### 14 Backup completo do banco de dados postgres
 a) deve ser realizado no formato "backup" 
     (Em Dump Options #1 Habilitar opções Don't Save Owner e Privilege)
 b) antes de postar o arquivo no git o mesmo deve ser testado/restaurado por outro grupo de alunos/dupla
