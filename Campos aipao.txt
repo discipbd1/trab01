@@ -12,5 +12,3 @@ user_email,user_senha,user_name,endereco,cep,numero,bairro,telefone,rg,cpf
 
 Cartão
 numero_cartao,validade,cvv,nome_cartao
-
-teste
