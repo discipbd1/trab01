@@ -6,11 +6,10 @@ Trabalho desenvolvido durante a disciplina de BD
 
 ### 1. COMPONENTES
 
-Integrantes do grupo
-Yan de Paula Gonçalves / yanw100@gmail.com
-Lucas Gomes Flegher / lukas.gomes2010@gmail.com
-Tadeu da Penha Moraes Junior / tadeu_junior@outlook.com
-Ewerson Vieira / 
+Yan de Paula Gonçalves / yanw100@gmail.com<br>
+Lucas Gomes Flegher / lukas.gomes2010@gmail.com<br>
+Tadeu da Penha Moraes Junior / tadeu_junior@outlook.com<br>
+Ewerson Vieira / <br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇÃO
 
@@ -31,20 +30,20 @@ O Dono, com acesso total do sistema pode verificar o histórico de compra e vend
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)
 
- https://github.com/Tadeujr/trab01/blob/yan/AIpao3.2.pdf
+https://github.com/Tadeujr/trab01/blob/yan/AIpao3.2.pdf
 
 
 #### 4.1 TABELA DE DADOS DO SISTEMA:
 https://github.com/Tadeujr/trab01/blob/yan/Campos%20aipao.txt
 
 
-
 ### 5.MODELO CONCEITUAL
 A) NOTACAO ENTIDADE RELACIONAMENTO
-
+<img src="https://github.com/Tadeujr/trab01/blob/lucas/brmodelo.jpg"/>
 
 
 B) NOTACAO UML (Caso esteja fazendo a disciplina de analise)
+<img src="https://github.com/Tadeujr/trab01/blob/lucas/umlaipao.png"/>
 
 C) QUALIDADE 
     Garantir que a semântica dos atributos seja clara no esquema
