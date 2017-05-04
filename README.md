@@ -9,7 +9,7 @@ Trabalho desenvolvido durante a disciplina de BD
 Yan de Paula Gonçalves / yanw100@gmail.com<br>
 Lucas Gomes Flegher / lukas.gomes2010@gmail.com<br>
 Tadeu da Penha Moraes Junior / tadeu_junior@outlook.com<br>
-Ewerson Vieira / <br>
+Ewerson Vieira / ewersonv@gmail.com<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇÃO
 
