@@ -24,7 +24,7 @@ Sobre as informações da padaria, deseja-se saber o nome da padaria, o endereç
 
 O cliente, altera as informações  da padaria, como preços, formas de pagamento, horário de funcionamento no sistema para que os dados estejam atualizados para os usuários do aplicativo. Além de, verificar o histórico de compra e venda verifica a situação da padaria, podendo ver todos os produtos vendidos durante um período de tempo.Para o cliente é importante um relatório de seus produtos mais vendidos, bem como os produtos menos vendidos, para o fim de controlar a produção evitando o desperdício de mercadoria e como consequência aumentar seus lucros.
 
-O usuário, tem acesso ao local da padaria, horário de funcionamento, se realiza entrega, formas de pagamento e encomendas de produtos. Ao verificar o produto o cliente, se for cadastrado no sistema, pode realizar a compra por aplicativo. O cliente avalia o serviço prestado. Para o cliente é importante que a padaria esteja com suas informações atualizadas.
+O usuário, tem acesso ao local da padaria, horário de funcionamento, se realiza entrega, formas de pagamento e encomendas de produtos. Ao verificar o produto, o usuário, se for cadastrado no sistema, pode realizar a compra por aplicativo. O usuário avalia o serviço prestado. Para o usuário é importante que a padaria esteja com suas informações atualizadas.
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)
 
