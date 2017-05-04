@@ -112,11 +112,14 @@ Tabela usuario, composta por(cpf, nome, rg, telefone, email), tabela com os camp
    Detalhamento sobre as informações e processo de obtenção ou geração dos dados.
     Referenciar todas as fontes referentes a :
     a) obtenção dos dados
-        Os dados utilizados são fictícios, criados aleatoriamente pelo grupo para fins de teste.
+    
+    Os dados utilizados são fictícios, criados aleatoriamente pelo grupo para fins de teste.
+    
     b) obtenção de códigos reutilizados
         
     c) fontes de estudo para desenvolvimento do projeto
-        Utilizamos o material disponibilizado pelo professor em aula e no moodle (slides).
+    
+    Utilizamos o material disponibilizado pelo professor em aula e no moodle (slides).
 
 
 #### 8.2 INCLUSÃO DO SCRIPT DE INSERÇÃO DOS DADOS
