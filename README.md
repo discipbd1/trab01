@@ -53,8 +53,8 @@ C) QUALIDADE
 
 #### 5.1 Validação do Modelo Conceitual
 
-[Grupo01]: [Nomes dos que participaram na avaliação]
-[Grupo02]: [Nomes dos que participaram na avaliação]
+[TransPoint]: [Elimar, Hellesandro, André, Serena]
+[InviteMe]: [David, Icaro, Luiz, Leonardo]
 
 
 #### 5.2 DECISÕES DE PROJETO
@@ -78,15 +78,15 @@ Tabela do Endereço do Usuário, composta por(cpf, estado, cidade, bairro, cep, 
 
 Tabela do Endereço Padaria, composta por(cpf, estado, cidade, bairro, cep, rua, número): Tabela de endereços do dono da padaria, o endereço foi separado da tabela dono da padaria, como explicado em sala.Tabela usada para identificação do local da padaria pelo usuário. 
 
-Tabela de entrega, composta por(id_ entrega, id_pedido, hora, data),tabela para armazenar os dados da entrega e histórico de compra dos clientes  e vendas para os donos da padaria.
+Tabela de entrega, composta por(id_ entrega, id_pedido, hora, data),tabela para armazenar os dados da entrega.
 Tabela padaria, composta por(id_padaria, cpf, nome, cnpj, email, celular, telefone, hora_abre, hora_fecha, descricao, valor_minimo, foto ), tabela armazena os dados da pessoa jurídica padaria.
 
-Tabela padaria_rating, composta por (id_padaria, cpf, id_pedido, estrelas, recomenda, piniao), escreve aqui yan
+Tabela padaria_rating, composta por (id_padaria, cpf, id_pedido, estrelas, recomenda, piniao), tabela que guarda os review da padaria.
 
-Tabela pedido, composta por(id_pedido, cpf, id_padaria, valor_total, data, hora), ???
+Tabela pedido, composta por(id_pedido, cpf, id_padaria, valor_total, data, hora), tabela que contém os historico de pedidos do usuário e tambem histórico de vendas da empresa.
 Tabela produto, composta por(id_produto, id_padaria, nome, descricao, valor_unit, quantidade), utilizada para atualização dos campos do produto.
 
-Tabela produtos_pedido, composta por(id_pedido, id_produto, qtd) escreve ai yan.
+Tabela produtos_pedido, composta por(id_pedido, id_produto, qtd)  tabela guarda os produtos que foram pedidos.
 
 Tabela usuario, composta por(cpf, nome, rg, telefone, email), tabela com os campos para identificação do usuário.
 
