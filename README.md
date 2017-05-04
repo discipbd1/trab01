@@ -53,7 +53,7 @@ C) QUALIDADE
 
 #### 5.1 Validação do Modelo Conceitual
 
-[TransPoint]: [Elimar, Hellesandro, André, Serena]
+[TransPoint]: [Elimar, Hellesandro, André, Serena]<br>
 [InviteMe]: [David, Icaro, Luiz, Leonardo]
 
 
@@ -92,10 +92,10 @@ Tabela usuario, composta por(cpf, nome, rg, telefone, email), tabela com os camp
 
 
 
-### 6	MODELO LÓGICO
-   a) inclusão do modelo lógico do banco de dados
-    b) verificação de correspondencia com o modelo conceitual 
-    (não serão aceitos modelos que não estejam em conformidade)
+### 6	MODELO LÓGICO <br>
+   
+   <img src='https://github.com/Tadeujr/trab01/blob/tadeu/modelo_logico.jpg'/>
+   
 
 
 ### 7	MODELO FÍSICO
