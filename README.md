@@ -39,7 +39,7 @@ https://github.com/Tadeujr/trab01/blob/yan/Campos%20aipao.txt
 
 ### 5.MODELO CONCEITUAL
 A) NOTACAO ENTIDADE RELACIONAMENTO
-<img src="https://github.com/Tadeujr/trab01/blob/yan/brmodel-print.jpg"/>
+<img src="https://github.com/Tadeujr/trab01/blob/yan/brmodel-print.png"/>
 
 
 B) NOTACAO UML (Caso esteja fazendo a disciplina de analise)
