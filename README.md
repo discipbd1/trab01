@@ -37,11 +37,11 @@ https://github.com/Tadeujr/trab01/blob/yan/AIpao3.2.pdf
 https://docs.google.com/spreadsheets/d/1JBbAo0VUQsOB8ZVPGZQFmyrlxMNNWYwclLrhofatXZA/edit#gid=0
 
 ### 5.MODELO CONCEITUAL
-A) NOTACAO ENTIDADE RELACIONAMENTO
-<img src="https://github.com/Tadeujr/trab01/blob/yan/brmodel-print.PNG"/>
+A) NOTACAO ENTIDADE RELACIONAMENTO:<br>
+<img src="https://github.com/Tadeujr/trab01/blob/yan/brmodel.jpg"/>
 
 
-B) NOTACAO UML (Caso esteja fazendo a disciplina de analise)
+B) NOTACAO UML (Caso esteja fazendo a disciplina de analise):<br>
 <img src="https://github.com/Tadeujr/trab01/blob/lucas/umlaipao.png"/>
 
 C) QUALIDADE 
