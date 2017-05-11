@@ -1,9 +1,11 @@
-CREATE TABLE usuario(
+CREATE TABLE cliente(
 	cpf INT,
 	nome VARCHAR(45),
 	rg INT,
 	telefone INT,
-	email VARCHAR(45)
+	email VARCHAR(45),
+	senha VARCHAR(45),
+	id_endereco INT
 );
 
 CREATE TABLE produtos_pedido(
@@ -51,7 +53,8 @@ CREATE TABLE padaria(
 	hora_fecha TIME,
 	descricao TEXT,
 	valor_minimo MONEY,
-	foto VARCHAR
+	foto VARCHAR(60),
+	id_endereco
 );
 
 CREATE TABLE entrega(
@@ -61,42 +64,12 @@ CREATE TABLE entrega(
 	data DATE
 );
 
-CREATE TABLE endereco_usuario(
-	cpf INT,
-	estado VARCHAR(2),
-	cidade VARCHAR(30),
-	bairro VARCHAR(30),
+CREATE TABLE endereco(
+	id_endereco INT,
+	id_estado INT,
+	id_cidade INT,
 	cep INT,
-	rua VARCHAR(45),
 	numero INT
-);
-
-CREATE TABLE endereco_padaria(
-	id_padaria INT,
-	estado VARCHAR(2),
-	cidade VARCHAR(30),
-	bairro VARCHAR(30),
-	cep INT,
-	rua VARCHAR(45),
-	numero INT
-);
-
-CREATE TABLE endereco_dono(
-	cpf INT,
-	estado VARCHAR(2),
-	cidade VARCHAR(30),
-	bairro VARCHAR(30),
-	cep INT,
-	rua VARCHAR(45),
-	numero INT
-);
-
-CREATE TABLE dono_padaria(
-	cpf INT,
-	nome VARCHAR(45),
-	email VARCHAR(45),
-	telefone INT,
-	senha VARCHAR(45)
 );
 
 CREATE TABLE cartao(
@@ -108,4 +81,22 @@ CREATE TABLE cartao(
 	segundo_nome VARCHAR(60),
 	mes VARCHAR(10),
 	ano VARCHAR(10)
+);
+
+CREATE TABLE cidade(
+	id_cidade INT,
+	id_estado INT,
+	nome VARCHAR(45),
+	sigla VARCHAR(2)
+);
+
+CREATE TABLE estado(
+	id_estado INT,
+	nome VARCHAR(45),
+	sigla VARCHAR(2)
+);
+
+CREATE TABLE cep(
+	cep INT,
+	rua VARCHAR(45)
 );
