@@ -10,5 +10,6 @@ CREATE TABLE padaria(
 	hora_fecha TIME,
 	descricao TEXT,
 	valor_minimo MONEY,
-	foto VARCHAR
+	foto VARCHAR(60),
+	id_endereco
 )

@@ -79,12 +79,15 @@ Tabela do Endereço Padaria, composta por(cpf, estado, cidade, bairro, cep, rua,
 Tabela de entrega, composta por(id_ entrega, id_pedido, hora, data),tabela para armazenar os dados da entrega.
 Tabela padaria, composta por(id_padaria, cpf, nome, cnpj, email, celular, telefone, hora_abre, hora_fecha, descricao, valor_minimo, foto ), tabela armazena os dados da pessoa jurídica padaria.
 
-Tabela padaria_rating, composta por (id_padaria, cpf, id_pedido, estrelas, recomenda, piniao), tabela que guarda os review da padaria.
+
+Tabela padaria_rating, composta por (id_padaria, cpf, id_pedido, estrelas, recomenda, piniao), tabela que armazena os dados sobre avaliações da padaria.
+
 
 Tabela pedido, composta por(id_pedido, cpf, id_padaria, valor_total, data, hora), tabela que contém os historico de pedidos do usuário e tambem histórico de vendas da empresa.
 Tabela produto, composta por(id_produto, id_padaria, nome, descricao, valor_unit, quantidade), utilizada para atualização dos campos do produto.
 
-Tabela produtos_pedido, composta por(id_pedido, id_produto, qtd)  tabela guarda os produtos que foram pedidos.
+Tabela produtos_pedido, composta por(id_pedido, id_produto, qtd), tabela onde ficam armazenados os pedidos feitos pelo usuário.
+
 
 Tabela usuario, composta por(cpf, nome, rg, telefone, email), tabela com os campos para identificação do usuário.
 
