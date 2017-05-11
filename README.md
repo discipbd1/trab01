@@ -122,11 +122,8 @@ Tabela usuario, composta por(cpf, nome, rg, telefone, email), tabela com os camp
     b) inclusão das instruções para execução de outros procedimentos necessários (caso existam)
 
 
-#### 8.3 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
-   a) Junção dos scripts anteriores em um único script 
-    (tabelas e estruturas de dados + dados a serem inseridos)
-    b) Criar um novo banco de dados para testar a restauracao 
-    (em caso de falha na restauração o grupo não pontuará neste quesito)
+#### 8.3 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS<br>
+https://github.com/Tadeujr/trab01/blob/lucas/Padaria/tabelas/tabelas%20ipao.sql
     
     
     Entrega até este ponto em: (Data a ser definida)
