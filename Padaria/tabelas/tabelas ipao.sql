@@ -20,7 +20,8 @@ CREATE TABLE produto(
 	nome VARCHAR(45),
 	descricao TEXT,
 	valor_unit MONEY,
-	quantidade INT
+	quantidade INT,
+	foto VARCHAR(60)
 );
 
 CREATE TABLE pedido(
