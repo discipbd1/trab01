@@ -36,7 +36,7 @@ https://docs.google.com/spreadsheets/d/1JBbAo0VUQsOB8ZVPGZQFmyrlxMNNWYwclLrhofat
 
 ### 5.MODELO CONCEITUAL
 A) NOTACAO ENTIDADE RELACIONAMENTO:<br>
-<img src="https://github.com/Tadeujr/trab01/blob/yan/brmodel.jpg"/>
+<img src="https://github.com/Tadeujr/trab01/blob/master/brModelo.jpg"/>
 
 
 B) NOTACAO UML (Caso esteja fazendo a disciplina de analise):<br>
@@ -94,7 +94,7 @@ Tabela usuario, composta por(cpf, nome, rg, telefone, email), tabela com os camp
 
 ### 6	MODELO LÓGICO <br>
    
-   <img src='https://github.com/Tadeujr/trab01/blob/tadeu/modelo_logico.jpg'/>
+   <img src='https://github.com/Tadeujr/trab01/blob/master/modelologico.jpg'/>
    
 
 
