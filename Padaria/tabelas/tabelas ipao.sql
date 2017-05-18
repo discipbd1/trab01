@@ -2,8 +2,7 @@ CREATE TABLE cliente(
 	cpf INT,
 	nome VARCHAR(45),
 	rg INT,
-	telefone INT,
-	email VARCHAR(45),
+	login VARCHAR(45),
 	senha VARCHAR(45),
 	id_endereco INT
 );
@@ -46,9 +45,6 @@ CREATE TABLE padaria(
 	cpf INT,
 	nome VARCHAR(50),
 	cnpj INT,
-	email VARCHAR(50),
-	celular INT,
-	telefone INT,
 	hora_abre TIME,
 	hora_fecha TIME,
 	descricao TEXT,
@@ -66,8 +62,7 @@ CREATE TABLE entrega(
 
 CREATE TABLE endereco(
 	id_endereco INT,
-	id_estado INT,
-	id_cidade INT,
+	id_bairro INT,
 	cep INT,
 	numero INT
 );
@@ -98,5 +93,29 @@ CREATE TABLE estado(
 
 CREATE TABLE cep(
 	cep INT,
+	id_bairro INT,
 	rua VARCHAR(45)
+);
+
+CREATE TABLE bairro(
+	id_bairro INT,
+	id_cidade INT,
+	nome_bairro VARCHAR(45)
+);
+
+CREATE TABLE tipo_contato(
+	id_contato INT,
+	tipo VARCHAR(45)
+);
+
+CREATE TABLE contato_cliente(
+	cpf INT,
+	id_contato INT,
+	contato VARCHAR(45)
+);
+
+CREATE TABLE contato_padaria(
+	id_padaria INT,
+	id_contato INT,
+	contato VARCHAR(45)
 );
