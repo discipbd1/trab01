@@ -1,7 +1,6 @@
 CREATE TABLE endereco(
 	id_endereco INT,
-	id_estado INT,
-	id_cidade INT,
+	id_bairro INT,
 	cep INT,
 	numero INT
-)
+);
