@@ -3,6 +3,7 @@ CREATE TABLE usuario(
 	nome VARCHAR(45),
 	rg INT,
 	telefone INT,
+	celular INT,
 	email VARCHAR(45)
 );
 
@@ -19,6 +20,7 @@ CREATE TABLE produto(
 	descricao TEXT,
 	valor_unit MONEY,
 	quantidade INT
+	foto VARCHAR
 );
 
 CREATE TABLE pedido(
@@ -45,7 +47,6 @@ CREATE TABLE padaria(
 	nome VARCHAR(50),
 	cnpj INT,
 	email VARCHAR(50),
-	celular INT,
 	telefone INT,
 	hora_abre TIME,
 	hora_fecha TIME,
