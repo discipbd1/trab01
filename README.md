@@ -36,16 +36,7 @@ https://docs.google.com/spreadsheets/d/1JBbAo0VUQsOB8ZVPGZQFmyrlxMNNWYwclLrhofat
 
 ### 5.MODELO CONCEITUAL
 A) NOTACAO ENTIDADE RELACIONAMENTO:<br>
-<img src="https://github.com/Tadeujr/trab01/blob/master/brModelo.jpg"/>
-
-
-B) NOTACAO UML (Caso esteja fazendo a disciplina de analise):<br>
-<img src="https://github.com/Tadeujr/trab01/blob/lucas/umlaipao.png"/>
-
-C) QUALIDADE 
-    Garantir que a semântica dos atributos seja clara no esquema
-    Criar o esquema de forma a garantir a redução de informação redundante, possibilidade de valores null, 
-    e tuplas falsas
+<img src="https://github.com/Tadeujr/trab01/blob/master/Padaria/imagens%20do%20trabalho/Modeloconceitual.jpg"/>
 
 
 #### 5.1 Validação do Modelo Conceitual
@@ -94,7 +85,7 @@ Tabela usuario, composta por(cpf, nome, rg, telefone, email), tabela com os camp
 
 ### 6	MODELO LÓGICO <br>
    
-   <img src='https://github.com/Tadeujr/trab01/blob/master/modelologico.jpg'/>
+   <img src='https://github.com/Tadeujr/trab01/blob/master/Padaria/imagens%20do%20trabalho/modelologico.jpg'/>
    
 
 
