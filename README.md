@@ -102,9 +102,12 @@ Tabela usuario, composta por(cpf, nome, rg, telefone, email), tabela com os camp
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
    Detalhamento sobre as informações e processo de obtenção ou geração dos dados.
     Referenciar todas as fontes referentes a :
-    a) obtenção dos dados
-    b) obtenção de códigos reutilizados
-    c) fontes de estudo para desenvolvimento do projeto
+    a) obtenção dos dados<br>
+    Os dados utilizados são fictícios, criados aleatoriamente pelo grupo para fins de teste.<br><br>
+    b) obtenção de códigos reutilizados<br>
+    ???<br><br>
+    c) fontes de estudo para desenvolvimento do projeto<br>
+    Utilizamos o material disponibilizado pelo professor em aula e no moodle (slides).<br>
 
 
 #### 8.2 INCLUSÃO DO SCRIPT DE INSERÇÃO DOS DADOS
