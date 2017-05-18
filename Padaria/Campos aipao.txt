@@ -1,0 +1,14 @@
+Usuario
+email,senha,nome,endereço,numero,cep,telefone,CPF
+
+Padaria
+nome_padaria,endereço_estabelecimento,uf,numero,cep,telefone,celular,min_entrega,valor_entrega,open,close,foto,descrição
+
+Produto
+nome_produto,descricao_produto,valor_unitario,qtd
+
+Cliente
+user_email,user_senha,user_name,endereco,cep,numero,bairro,telefone,rg,cpf
+
+Cartão
+numero_cartao,validade,cvv,nome_cartao
