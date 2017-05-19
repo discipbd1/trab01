@@ -143,4 +143,5 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 #### Os usuários criados no GIT devem possuir o nome de identificação do aluno (não serão aceitos nomes como Eu123, meuprojeto, pro456, etc). Em caso de dúvida comunicar o professor.
 
 
-
+Link para BrModelo:<br>
+http://sis4.com/brModelo/brModelo/download.html
