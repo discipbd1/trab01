@@ -73,7 +73,7 @@ Tabela de entrega, composta por(id_ entrega, id_pedido, hora, data),tabela para 
 Tabela padaria, composta por(id_padaria, cpf, nome, cnpj, email, celular, telefone, hora_abre, hora_fecha, descricao, valor_minimo, foto ), tabela armazena os dados da pessoa jurídica padaria.
 
 
-Tabela padaria_rating, composta por (id_padaria, cpf, id_pedido, estrelas, recomenda, piniao), tabela que armazena os dados sobre avaliações da padaria.
+Tabela padaria_rating, composta por (cpf, id_pedido, estrelas, recomenda, piniao), tabela que armazena os dados sobre avaliações da padaria.
 
 Tabela pedido, composta por(id_pedido, cpf, id_padaria, valor_total, data, hora), tabela que contém os historico de pedidos do usuário e tambem histórico de vendas da empresa.
 
