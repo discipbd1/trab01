@@ -4,7 +4,9 @@ CREATE TABLE cliente(
 	rg INT,
 	login VARCHAR(45),
 	senha VARCHAR(45),
-	id_endereco INT
+	tipo VARCHAR(60),
+	id_endereco INT,
+	cli_tipo INT
 );
 
 CREATE TABLE produtos_pedido(
@@ -19,7 +21,8 @@ CREATE TABLE produto(
 	nome VARCHAR(45),
 	descricao TEXT,
 	valor_unit MONEY,
-	quantidade INT
+	quantidade INT,
+	foto VARCHAR(60)
 );
 
 CREATE TABLE pedido(

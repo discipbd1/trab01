@@ -2,8 +2,9 @@
 	cpf INT,
 	nome VARCHAR(45),
 	rg INT,
-	telefone INT,
-	email VARCHAR(45),
+	login VARCHAR(45),
 	senha VARCHAR(45),
-	id_endereco INT
-)
+	tipo VARCHAR(60),
+	id_endereco INT,
+	cli_tipo INT
+);

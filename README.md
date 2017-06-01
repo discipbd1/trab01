@@ -58,30 +58,36 @@ b) justifique!
 
 Tabela do Cartão, composta por (cpf, numero_cartao, nome_cartao, sec_cod, primeiro_nome, segundo_nome, mês, ano): Criada com o objetivo de agilizar a compra do cliente, ele pode querer guardar os dados do cartão ou não. Os campos são para legitimar o dono do cartão.
 
-Tabela dono da padaria, composta por (cpf, nome, email, telefone, senha): Criada para contactar o dono da padaria, casos os dados deixados na tabela padaria, não seja possível falar com o proprietário da mesma. 
+Tabela endereco, composta por (id_endereco,id_cidade,cep,numero), tabela armazena os dados referente aos endereços tanto das padarias como dos clientes.
 
-Tabela do Endereço do dono, composta por(cpf, estado, cidade, bairro, cep, rua, número): Tabela de endereços do dono da padaria, o endereço foi separado da tabela dono da padaria, como explicado em sala.
+Tabela bairro, composta por (id_bairro,id_cidade,nome_bairro), tabela armazena os bairros.
 
-Tabela do Endereço do Usuário, composta por(cpf, estado, cidade, bairro, cep, rua, número): Tabela de endereços do usuário do site, o endereço foi separado da tabela usuário, como explicado em sala. Tabela usada para identificação do local do usuário. 
+Tabela cep, composta por (cep,id_bairro,rua), tabela armazena os CEPs do sistema.
 
-Tabela do Endereço Padaria, composta por(cpf, estado, cidade, bairro, cep, rua, número): Tabela de endereços do dono da padaria, o endereço foi separado da tabela dono da padaria, como explicado em sala.Tabela usada para identificação do local da padaria pelo usuário. 
+Tabela cidade, composta por (id_cidade,id_estado,nome,sigla), tabela armazena as cidade cadastradas no sistema.
+
+Tabela estado, composta por (id_estado,nome,sigla), tabela armazena os estados cadastrado no sistema.
 
 Tabela de entrega, composta por(id_ entrega, id_pedido, hora, data),tabela para armazenar os dados da entrega.
+
 Tabela padaria, composta por(id_padaria, cpf, nome, cnpj, email, celular, telefone, hora_abre, hora_fecha, descricao, valor_minimo, foto ), tabela armazena os dados da pessoa jurídica padaria.
 
 
 Tabela padaria_rating, composta por (id_padaria, cpf, id_pedido, estrelas, recomenda, piniao), tabela que armazena os dados sobre avaliações da padaria.
 
-
 Tabela pedido, composta por(id_pedido, cpf, id_padaria, valor_total, data, hora), tabela que contém os historico de pedidos do usuário e tambem histórico de vendas da empresa.
+
 Tabela produto, composta por(id_produto, id_padaria, nome, descricao, valor_unit, quantidade), utilizada para atualização dos campos do produto.
 
 Tabela produtos_pedido, composta por(id_pedido, id_produto, qtd), tabela onde ficam armazenados os pedidos feitos pelo usuário.
 
+Tabela cliente, composta por(cpf, nome, rg, senha,id_enderco,cli_tipo), tabela com os campos para identificação do Cliente.
 
-Tabela usuario, composta por(cpf, nome, rg, telefone, email), tabela com os campos para identificação do usuário.
+Tabela contato_cliente, composta por (cpf,id_contato,contato), tabela que armazena os diversos meios de contato do usuário.
 
+Tabela contato_padaria, composta por (id_padaria,id_contato,contato), tabela que armazena os diversos meios de contato do usuário.
 
+Tabela tipo_contato, composta por (id_contato,tipo), tabela que armazena os tipos de contato do sistema.
 
 ### 6	MODELO LÓGICO <br>
    
