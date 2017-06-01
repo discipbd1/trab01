@@ -1,50 +1,77 @@
+CREATE TABLE tipo_contato(
+	id_contato INT primary key,
+	tipo VARCHAR(45)
+);
+
+CREATE TABLE estado(
+	id_estado INT primary key,
+	nome VARCHAR(45),
+	sigla VARCHAR(2)
+);
+
 CREATE TABLE cliente(
-	cpf INT,
+	cpf INT primary key,
 	nome VARCHAR(45),
 	rg INT,
 	login VARCHAR(45),
 	senha VARCHAR(45),
 	tipo VARCHAR(60),
 	id_endereco INT,
-	cli_tipo INT
+	cli_tipo INT,
+	foreign key id_endereco
+	references endereco(id_endereco)
 );
 
 CREATE TABLE produtos_pedido(
 	id_pedido INT,
 	id_produto INT,
-	qtd INT
+	qtd INT,
+	foreign key id_pedido
+	references pedido(id_pedido),
+	foreign key id_produto
+	references produto(id_produto)
+
 );
 
 CREATE TABLE produto(
-	id_produto INT,
+	id_produto INT primary key,
 	id_padaria INT,
 	nome VARCHAR(45),
 	descricao TEXT,
 	valor_unit MONEY,
 	quantidade INT,
-	foto VARCHAR(60)
+	foto VARCHAR(60),
+	foreign key id_padaria
+	references padaria(id_padaria)
 );
 
 CREATE TABLE pedido(
-	id_pedido INT,
+	id_pedido INT primary key,
 	cpf INT,
 	id_padaria INT,
 	valor_total MONEY,
 	data DATE,
-	hora TIME
+	hora TIME,
+	foreign key cpf
+	references cliente(cpf),
+	foreign key id_padaria
+	references padaria(id_padaria)
 );
 
 CREATE TABLE padaria_rating(
-	id_padaria INT,
 	cpf INT,
 	id_pedido INT,
 	estrelas INT,
 	recomenda INT,
-	opiniao TEXT
+	opiniao TEXT,
+	foreign key cpf
+	references cliente(cpf),
+	foreign key id_pedido
+	references pedido(id_pedido)
 );
 
 CREATE TABLE padaria(
-	id_padaria INT,
+	id_padaria INT primary KEY,
 	cpf INT,
 	nome VARCHAR(50),
 	cnpj INT,
@@ -53,21 +80,31 @@ CREATE TABLE padaria(
 	descricao TEXT,
 	valor_minimo MONEY,
 	foto VARCHAR(60),
-	id_endereco
+	id_endereco INT,
+	foreign key cpf
+	references cliente(cpf),
+	foreign key id_endereco
+	references endereco(id_endereco)
 );
 
 CREATE TABLE entrega(
-	id_entrega INT,
+	id_entrega INT primary key,
 	id_pedido INT,
 	hora TIME,
-	data DATE
+	data DATE,
+	foreign key id_pedido
+	references pedido(id_pedido)
 );
 
 CREATE TABLE endereco(
-	id_endereco INT,
+	id_endereco INT primary key,
 	id_bairro INT,
 	cep INT,
-	numero INT
+	numero INT,
+	foreign key id_bairro
+	references bairro(id_bairro),
+	foreign key cep
+	references cep(cep)
 );
 
 CREATE TABLE cartao(
@@ -78,47 +115,52 @@ CREATE TABLE cartao(
 	primeiro_nome VARCHAR(45),
 	segundo_nome VARCHAR(60),
 	mes VARCHAR(10),
-	ano VARCHAR(10)
+	ano VARCHAR(10),
+	foreign key cpf
+	references cliente(cpf)
 );
 
 CREATE TABLE cidade(
-	id_cidade INT,
+	id_cidade INT primary key,
 	id_estado INT,
 	nome VARCHAR(45),
-	sigla VARCHAR(2)
-);
-
-CREATE TABLE estado(
-	id_estado INT,
-	nome VARCHAR(45),
-	sigla VARCHAR(2)
+	sigla VARCHAR(2),
+	foreign key id_estado
+	references estado(id_estado)
 );
 
 CREATE TABLE cep(
-	cep INT,
+	cep INT primary key,
 	id_bairro INT,
-	rua VARCHAR(45)
+	rua VARCHAR(45),
+	foreign key id_bairro
+	references bairro(id_bairro)
 );
 
 CREATE TABLE bairro(
-	id_bairro INT,
+	id_bairro INT primary key,
 	id_cidade INT,
-	nome_bairro VARCHAR(45)
-);
-
-CREATE TABLE tipo_contato(
-	id_contato INT,
-	tipo VARCHAR(45)
+	nome_bairro VARCHAR(45),
+	foreign key id_cidade
+	references cidade(id_cidade)
 );
 
 CREATE TABLE contato_cliente(
 	cpf INT,
 	id_contato INT,
-	contato VARCHAR(45)
+	contato VARCHAR(45),
+	foreign key cpf
+	references cliente(cpf),
+	foreign key id_contato
+	references tipo_contato(id_contato)
 );
 
 CREATE TABLE contato_padaria(
 	id_padaria INT,
 	id_contato INT,
-	contato VARCHAR(45)
+	contato VARCHAR(45),
+	foreign key id_padaria
+	references padaria(id_padaria),
+	foreign key id_contato
+	references tipo_contato(id_contato)
 );
