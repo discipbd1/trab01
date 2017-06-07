@@ -35,8 +35,8 @@ https://github.com/Tadeujr/trab01/blob/yan/AIpao3.2.pdf
 https://docs.google.com/spreadsheets/d/1JBbAo0VUQsOB8ZVPGZQFmyrlxMNNWYwclLrhofatXZA/edit#gid=0
 
 ### 5.MODELO CONCEITUAL
-A) NOTACAO ENTIDADE RELACIONAMENTO:<br>
-<img src="https://github.com/Tadeujr/trab01/blob/master/Padaria/imagens%20do%20trabalho/Modeloconceitual.jpg"/>
+A) NOTACAO ENTIDADE RELACIONAMENTO:
+<br><img src="https://github.com/Tadeujr/trab01/blob/master/Padaria/imagens%20do%20trabalho/modeloconceitual.jpg"/>
 
 
 #### 5.1 Validação do Modelo Conceitual
