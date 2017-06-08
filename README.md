@@ -36,7 +36,7 @@ https://docs.google.com/spreadsheets/d/1JBbAo0VUQsOB8ZVPGZQFmyrlxMNNWYwclLrhofat
 
 ### 5.MODELO CONCEITUAL
 A) NOTACAO ENTIDADE RELACIONAMENTO:
-<br><img src="https://github.com/Tadeujr/trab01/blob/master/Padaria/imagens%20do%20trabalho/modeloconceitual.jpg"/>
+<br><img src="https://github.com/Tadeujr/trab01/blob/master/Padaria/imagens%20do%20trabalho/modelo_conceitual.jpg"/>
 
 
 #### 5.1 Validação do Modelo Conceitual
@@ -91,7 +91,7 @@ Tabela tipo_contato, composta por (id_contato,tipo), tabela que armazena os tipo
 
 ### 6	MODELO LÓGICO <br>
    
-   <img src='https://github.com/Tadeujr/trab01/blob/master/Padaria/imagens%20do%20trabalho/modelologico.jpg'/>
+   <img src='https://github.com/Tadeujr/trab01/blob/master/Padaria/imagens%20do%20trabalho/foto_modelo_logico.jpg'/>
    
 
 
