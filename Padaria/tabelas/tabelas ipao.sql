@@ -125,12 +125,20 @@ CREATE TABLE pedido(
 	cpf INT,
 	id_padaria INT,
 	valor_total MONEY,
-	data DATE,
-	hora TIME,
+	data_pedido DATETIME,
+	data_pagamento DATETIME,
+	id_pagamento INT,
 	foreign key (cpf)
 	references cliente(cpf),
 	foreign key (id_padaria)
-	references padaria(id_padaria)
+	references padaria(id_padaria),
+	foreign key (id_pagamento)
+	references padaria(tipo_pagameto)
+);
+
+CREATE TABLE tipo_pagameto(
+	id_pagamento INT primary key,
+	descricao VARCHAR(50)
 );
 
 CREATE TABLE entrega(
@@ -164,4 +172,4 @@ CREATE TABLE padaria_rating(
 	references cliente(cpf),
 	foreign key (id_pedido)
 	references pedido(id_pedido)
-);
+)
