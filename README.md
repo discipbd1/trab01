@@ -46,48 +46,122 @@ A) NOTACAO ENTIDADE RELACIONAMENTO:
 
 
 #### 5.2 DECISÕES DE PROJETO
-[atributo]: [descrição da decisão]
-
-EXEMPLO:
-a) Campo endereço: em nosso projeto optamos por um campo multivalorado e composto, pois a empresa 
-pode possuir para cada departamento mais de uma localização... 
-b) justifique!
 
 
-#### 5.3 DESCRIÇÃO DOS DADOS
 
-Tabela do Cartão, composta por (cpf, numero_cartao, nome_cartao, sec_cod, primeiro_nome, segundo_nome, mês, ano): Criada com o objetivo de agilizar a compra do cliente, ele pode querer guardar os dados do cartão ou não. Os campos são para legitimar o dono do cartão.
+#### 5.3 DESCRIÇÃO DOS DADOS<br><br>
 
-Tabela endereco, composta por (id_endereco,id_cidade,cep,numero), tabela armazena os dados referente aos endereços tanto das padarias como dos clientes.
+<b>Tipo de contato:</b> tabela de contato , composta por :
+Id_contato: chave primária da tabela tipo de contato;
+Tipo: criado para diferenciar o tipo de contato, que pode ser, contato, padaria, dono de padaria ou usuário ;</br>
 
-Tabela bairro, composta por (id_bairro,id_cidade,nome_bairro), tabela armazena os bairros.
-
-Tabela cep, composta por (cep,id_bairro,rua), tabela armazena os CEPs do sistema.
-
-Tabela cidade, composta por (id_cidade,id_estado,nome,sigla), tabela armazena as cidade cadastradas no sistema.
-
-Tabela estado, composta por (id_estado,nome,sigla), tabela armazena os estados cadastrado no sistema.
-
-Tabela de entrega, composta por(id_ entrega, id_pedido, hora, data),tabela para armazenar os dados da entrega.
-
-Tabela padaria, composta por(id_padaria, cpf, nome, cnpj, email, celular, telefone, hora_abre, hora_fecha, descricao, valor_minimo, foto ), tabela armazena os dados da pessoa jurídica padaria.
-
-
-Tabela padaria_rating, composta por (cpf, id_pedido, estrelas, recomenda, piniao), tabela que armazena os dados sobre avaliações da padaria.
-
-Tabela pedido, composta por(id_pedido, cpf, id_padaria, valor_total, data, hora), tabela que contém os historico de pedidos do usuário e tambem histórico de vendas da empresa.
-
-Tabela produto, composta por(id_produto, id_padaria, nome, descricao, valor_unit, quantidade), utilizada para atualização dos campos do produto.
-
-Tabela produtos_pedido, composta por(id_pedido, id_produto, qtd), tabela onde ficam armazenados os pedidos feitos pelo usuário.
-
-Tabela cliente, composta por(cpf, nome, rg, senha,id_enderco,cli_tipo), tabela com os campos para identificação do Cliente.
-
-Tabela contato_cliente, composta por (cpf,id_contato,contato), tabela que armazena os diversos meios de contato do usuário.
-
-Tabela contato_padaria, composta por (id_padaria,id_contato,contato), tabela que armazena os diversos meios de contato do usuário.
-
-Tabela tipo_contato, composta por (id_contato,tipo), tabela que armazena os tipos de contato do sistema.
+<b>Cartao:</b> tabela que armazena os dados do cartão do cliente 
+Cpf: chave primária, faz relação com a tabela cliente
+Numero_cartao: armazena o número do cartão;
+Nome_cartao: armazena o nome do titular do cartão 
+Sec_cod: armazena o código de segurança do cartão
+Primeiro_nome: armazena o primeiro nome do titular do cartão;
+Segundo_nome: armazena o segundo nome do titular do cartão;
+Mes: armazena o mês de vencimento do cartão;
+Ano: armazena o ano do vencimento do cartão;</br>
+ 
+<b>Padaria:</b> tabela armazena os dados da padaria;
+Id_padaria: chave primária, armazena o id da padaria; 
+Cpf: chave estrangeira faz relação com cliente;
+nome :armazena o nome da padaria;
+Cnpj: armazena o cnpj da padaria;
+Hora_abre: armazena horário de abertura da padaria; 
+Hora_fecha: armazena horário de fechamento da padaria;
+Descricao: armazena a descrição da padaria; 
+Valor_minimo: armazena o valor minimo de entrega se existir;
+Foto: armazena foto da padaria; 
+Id_endereco: chave estrangeira faz relação com a tabela de endereço;</br>
+ 
+<b>Produto:</b> tabela armazena dados dos produtos da padaria;
+Id_produto: chave primária da tabela de produtos; 
+Id_padaria: chave estrangeira, faz relação com a tabela padaria;
+Nome: armazena o nome do produto;
+Descricao: armazena a descrição do produto;
+Valor_unit: armazena o valor do produto;  
+Quantidade: armazena a quantidade disponível do produto;
+Foto: armazena a foto do produto ;<br>
+ 
+<b>Contato_padaria:</b> tabela armazena o contato da padaria;
+Id_padaria: chave estrangeira, tem relação com a tabela padaria;
+Id_contato: chave estrangeira, tem relação com a tabela tipo de contato;
+Contato: armazena contatos da padaria;<br>
+ 
+<b>Pedido:</b> tabela armazena os pedidos;
+Id_pedido: chave primária da tabela pedido;
+cpf: chave estrangeira, faz relação com a tabela cliente;
+Id_padaria: chave estrangeira, faz relação com a tabela padaria;<br>
+ 
+<b>Valor_total:</b> armazena o valor total a pagar;
+Data: armazena a data do pedido;
+Hora: armazena hora do pedido; <br>
+ 
+<b>Entrega:</b> tabela armazena dados da entrega do pedido;
+Id_entrega: chave primária da tabela entrega;
+Id_pedido: chave estrangeira, faz relação com a tabela pedido
+Hora: armazena hora da entrega;
+Data: armazena data da entrega;<br>
+ 
+<b>Produtos_pedido:</b> tabela armazena os produtos pedido, para um leratório;
+Id_pedido: chave estrangeira que faz relação com a tabela  pedido;
+Id_produto: chave estrangeira que faz relação com a tabela produto;
+Qtd: armazena a quantidade pedida do produto;<br>
+ 
+<b>Padaria_rating:</b> armazena a classificação da padaria
+Cpf: chave estrangeira que faz relação com a tabela faz relação com a tabela cliente;
+Id_pedido: chave estrangeira que faz relação com a tabela pedido;
+Estrelas; armazena a quantidade de estrelas classificada pelo o usuário;
+Recomenda: armazena se o usuário recomenda ou não a padaria;
+Opiniao: armazena a opinião do cliente; <br>
+ 
+<b>Tipo_contato:</b> tabela armazena o tipo de contato;
+Id_contato: chave primaria da tabela tipo de contato;
+Tipo:armazena o tipo de contato;<br>
+ 
+<b>Estado:</b> tabela armazena dados sobre o estado do cliente;
+Id_estado: chave primária da tabela estado;
+Nome: armazena o nome do estado;
+Sigla: armazena a sigla do estado;<br>
+ 
+<b>Cidade:</b> tabela armazena dados da cidade do usuário;
+Id_cidade: chave primária da tabela cidade;
+Id_estado: chave estrangeira que faz relação com a tabela estado;
+Nome: armazena o nome da cidade;<br>
+ 
+<b>Bairro:</b> tabela armazena o bairro do cliente;
+Id_bairro: chave primária da tabela bairro;
+Id_cidade: chave estrangeira que faz relação com a tabela cidade;
+Nome_bairro: armazena o nome do bairro; <br>
+ 
+<b>Cep:</b> tabela armazena cep do usuário;
+Cep: chave primária da tabela cep;
+Id_bairro: chave estrangeira que faz relação com a tabela bairro
+Rua: armazena o nome da rua;<br>
+ 
+<b>Endereco:</b> tabela armazena dados do endereço;
+Id_endereco: chave primária da tabela endereço;
+id_bairro: chave estrangeira que faz relação com a tabela bairro;
+Cep: chave estrangeira que faz relação com a tabela cep;
+Numero: armazena o numero do local;<br>
+ 
+<b>Cliente:</b> tabela armazena os dados do cliente;
+Cpf: chave primária da tabela cliente;
+Nome: armazena o nome do cliente;
+Rg: armazena o rg do cliente;
+Login: armazena o nome de login do cliente;
+Senha: armazena a senha do cliente;
+Tipo: armazena o tip de cliente;
+Id_endereco: chave estrangeira que faz relação com a tabela endereço;
+Cli_tipo: armazena o tipo de cliente;<br>
+ 
+<b>Contato_cliente:</b> tabela armazena o contato do cliente;
+Cpf: chave estrangeira que faz relação com a tabela cliente;
+Id_contato: chave estrangeira que faz relação com a tabela tipo de contato;
+Contato: armazena o contato do cliente;<br><br>
 
 ### 6	MODELO LÓGICO <br>
    
