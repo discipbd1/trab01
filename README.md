@@ -32,7 +32,7 @@ https://github.com/Tadeujr/trab01/blob/yan/AIpao3.2.pdf
 
 
 #### 4.1 TABELA DE DADOS DO SISTEMA:
-https://docs.google.com/spreadsheets/d/1JBbAo0VUQsOB8ZVPGZQFmyrlxMNNWYwclLrhofatXZA/edit#gid=0
+https://github.com/Tadeujr/trab01/blob/master/Padaria/Campos%20IPAO.ods
 
 ### 5.MODELO CONCEITUAL
 A) NOTACAO ENTIDADE RELACIONAMENTO:
