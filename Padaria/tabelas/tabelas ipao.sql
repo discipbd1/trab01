@@ -120,26 +120,28 @@ CREATE TABLE contato_padaria(
 	references tipo_contato(id_contato)
 );
 
+CREATE TABLE tipo_pagamento(
+	id_pagamento INT primary key,
+	descricao VARCHAR(50)
+);
+
+
 CREATE TABLE pedido(
 	id_pedido INT primary key,
 	cpf INT,
 	id_padaria INT,
 	valor_total MONEY,
-	data_pedido DATETIME,
-	data_pagamento DATETIME,
+	data_pedido timestamp,
+	data_pagamento timestamp,
 	id_pagamento INT,
 	foreign key (cpf)
 	references cliente(cpf),
 	foreign key (id_padaria)
 	references padaria(id_padaria),
 	foreign key (id_pagamento)
-	references padaria(tipo_pagameto)
+	references tipo_pagamento(id_pagamento)
 );
 
-CREATE TABLE tipo_pagameto(
-	id_pagamento INT primary key,
-	descricao VARCHAR(50)
-);
 
 CREATE TABLE entrega(
 	id_entrega INT primary key,
