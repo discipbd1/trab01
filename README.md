@@ -180,11 +180,7 @@ Contato: armazena o contato do cliente;<br><br>
 
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
-   Detalhamento sobre as informações e processo de obtenção ou geração dos dados.
-    Referenciar todas as fontes referentes a :
-    a) obtenção dos dados
-    b) obtenção de códigos reutilizados
-    c) fontes de estudo para desenvolvimento do projeto
+   https://github.com/Tadeujr/trab01/blob/lucas/Padaria/tabelas/tabelas%20ipao.sql
 
 
 #### 8.2 INCLUSÃO DO SCRIPT DE INSERÇÃO DOS DADOS
@@ -193,7 +189,7 @@ Contato: armazena o contato do cliente;<br><br>
 
 
 #### 8.3 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS<br>
-https://github.com/Tadeujr/trab01/blob/lucas/Padaria/tabelas/tabelas%20ipao.sql
+
     
     
     Entrega até este ponto em: (Data a ser definida)
