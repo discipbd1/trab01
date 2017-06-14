@@ -184,13 +184,11 @@ Contato: armazena o contato do cliente;<br><br>
 
 
 #### 8.2 INCLUSÃO DO SCRIPT DE INSERÇÃO DOS DADOS
-   a) inclusão das instruções de inserção dos dados nas tabelas criadas pelo script de modelo físico
-    b) inclusão das instruções para execução de outros procedimentos necessários (caso existam)
-
+   https://github.com/Tadeujr/trab01/blob/master/Padaria/INSERTS.txt
 
 #### 8.3 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS<br>
-
-    
+   https://github.com/Tadeujr/trab01/blob/lucas/Padaria/tabelas/tabelas%20ipao.sql
+   https://github.com/Tadeujr/trab01/blob/master/Padaria/INSERTS.txt
     
     Entrega até este ponto em: (Data a ser definida)
 
