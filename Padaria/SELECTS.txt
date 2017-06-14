@@ -1,0 +1,50 @@
+SELECT id_contato,tipo
+FROM contato
+
+SELECT id_estado,nome,sigla
+FROM estado
+
+SELECT id_cidade,id_estado,nome
+FROM cidade 
+
+SELECT id_bairro,id_cidade,nome_bairro
+FROM bairro
+
+SELECT cep,rua,id_bairro
+FROM cep
+
+SELECT id_endereco,id_bairro,cep,numero
+FROM endereco
+
+SELECT cpf,nome,rg,login,senha,tipo,id_endereco,cli_tipo
+FROM cliente
+
+SELECT cpf,id_contato,contato
+FROM contato_cliente
+
+SELECT cpf,numero_cartao,nome_cartao,sec_cod,primeiro_nome,segundo_nome,mes,ano
+FROM cartao
+
+SELECT id_padaria,cpf,nome,cnpj,hora_abre,hora_fecha,descricao,valor_minimo,foto,id_endereco
+FROM padaria
+
+SELECT id_produto,id_padaria,nome,descricao,valor_unit,quantidade,foto
+FROM produto
+
+SELECT id_padaria,id_contato,contato
+FROM contato_padaria
+
+SELECT id_pagamento,descricao
+FROM tipo_pagamento
+
+SELECT id_pedido,cpf,id_padaria,valor_total,data_pedido,data_pagamento,id_pagamento
+FROM pedido
+
+SELECT id_entrega,id_pedido,hora,data
+FROM entrega
+
+SELECT id_pedido,id_produto,qtd
+FROM produtos_pedido
+
+SELECT cpf,id_pedido,estrelas,recomenda,opiniao
+FROM padaria_rating
