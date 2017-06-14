@@ -251,7 +251,15 @@ Contato: armazena o contato do cliente;<br><br>
  
 
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 3)
+<h3>SELECT id_produto, id_padaria, nome, descricao, valor_unit, quantidade FROM produto where quantidade > 10;<h3>
+<img src='https://github.com/Tadeujr/trab01/blob/master/Padaria/imagens%20do%20trabalho/produto%20where%20qtd.PNG'/>
 
+<h3>SELECT nome, descricao, valor_unit FROM produto where valor_unit > '20,00'<h3>
+<img src='https://github.com/Tadeujr/trab01/blob/master/Padaria/imagens%20do%20trabalho/produto%20where%20valor_unit.PNG'/>
+
+<h3> SELECT nome, id_padaria, valor_total FROM pedido inner join cliente on (cliente.cpf = pedido.cpf) 
+where valor_total > '30,00'<h3>
+<img src='https://github.com/Tadeujr/trab01/blob/master/Padaria/imagens%20do%20trabalho/pedido%20join%20cliente.PNG'/>
  
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 2)
 
