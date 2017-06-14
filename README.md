@@ -251,8 +251,27 @@ Contato: armazena o contato do cliente;<br><br>
  
 
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 3)
+
+ 
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 2)
+
+ <h3>SELECT id_produto AS COD_Produto, id_padaria, nome, descricao, valor_unit, quantidade FROM produto where quantidade > 10 OR quantidade = 5;<h3>
+ <img src='https://github.com/Tadeujr/trab01/blob/master/Padaria/imagens%20do%20trabalho/where_contidade.png'/> 
+ 
+ <h3>SELECT nome, id_padaria AS cod_padaria FROM produto where valor_unit >= 'R$50,00' AND id_padaria = 190<h3>
+ <img src='https://github.com/Tadeujr/trab01/blob/master/Padaria/imagens%20do%20trabalho/where_produto.png'/> 
+ 
+ 
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 3) 
+ <h3>SELECT id_produto, id_padaria, nome, descricao, valor_unit, quantidade,foto FROM produto where descricao like '%Trigo%';<h3>
+ <img src='https://github.com/Tadeujr/trab01/blob/master/Padaria/imagens%20do%20trabalho/like_trigo.png'/> 
+ 
+  <h3>SELECT * FROM padaria where descricao like '%confeitaria%';<h3>
+ <img src='https://github.com/Tadeujr/trab01/blob/master/Padaria/imagens%20do%20trabalho/like_confeitaria.png'/> 
+ 
+   <h3>SELECT nome,descricao FROM produto where nome like '%Bolo%';<h3>
+ <img src='https://github.com/Tadeujr/trab01/blob/master/Padaria/imagens%20do%20trabalho/like_blo.png'/> 
+ 
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)
 #### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Todas Junções)
    Entrega até este ponto em: (Data a ser definida)
