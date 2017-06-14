@@ -1,5 +1,5 @@
 SELECT id_contato,tipo
-FROM contato
+FROM tipo_contato
 
 SELECT id_estado,nome,sigla
 FROM estado
