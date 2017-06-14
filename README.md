@@ -198,9 +198,6 @@ Contato: armazena o contato do cliente;<br><br>
 <h3>select*from bairro<h3>
  <img src='https://github.com/Tadeujr/trab01/blob/master/Padaria/imagens%20do%20trabalho/bairro.png'/>
  
- <h3>select*from cartao<h3>
- <img src='https://github.com/Tadeujr/trab01/blob/master/Padaria/imagens%20do%20trabalho/cartao.png'/>
-
 <h3>select*from cep<h3>
  <img src='https://github.com/Tadeujr/trab01/blob/master/Padaria/imagens%20do%20trabalho/cep.png'/>
  
