@@ -44,17 +44,23 @@ CREATE TABLE endereco(
 	references cep(cep)
 );
 
-CREATE TABLE cliente(
+CREATE TABLE pessoa(
 	cpf INT primary key,
 	nome VARCHAR(45),
 	rg INT,
-	login VARCHAR(45),
-	senha VARCHAR(45),
 	tipo VARCHAR(60),
 	id_endereco INT,
 	cli_tipo INT,
 	foreign key (id_endereco)
 	references endereco(id_endereco)
+);
+
+CREATE TABLE usuario(
+	cpf INT primary key,
+	login VARCHAR(45),
+	senha VARCHAR(45),
+	foreign key (cpf)
+	references pessoa(cpf)
 );
 
 CREATE TABLE contato_cliente(
@@ -193,8 +199,29 @@ VALUES(29180054,'Rua Café Filho',312),(28746896,'Rua Diamante',345),(29000000,'
 INSERT INTO endereco(id_endereco,id_bairro,cep,numero)
 VALUES(1111111,312,29180054,55),(2222222,345,28746896,456),(3333333,387,29000000,89),(4444444,356,25689211,86),(5555555,245,87964294,47),(6666666,278,45464789,22),(7777777,255,98653597,36),(8888888,159,98569221,35),(9999999,671,89641321,327),(1010101,892,12365589,641);
 
-INSERT INTO cliente(cpf,nome,rg,login,senha,tipo,id_endereco,cli_tipo)
-VALUES(11111,'Tadeu Junior',22334,'tadeujun1or','111111','cliente',1111111,1),(22222,'Yan de Paula',88776,'yandp','22222','dono',2222222,0),(33333,'Ewerson Vieira',32345,'ewersonv','33333','cliente',3333333,1),(44444,'Lucas Gomes Irinel',26526,'luca_irinel','44444','cliente',4444444,1),(55555,'Icaro Duarte',22334,'icaroduarte','55555','cliente',5555555,1),(66666,'David Vilaca',44556,'vilacadavid','66666','cliente',6666666,1),(77777,'Leandro Goias',77889,'leandro_goias','77777','cliente',7777777,1),(88888,'Luiz Melodia',34523,'luizmelodia','88888','cliente',8888888,1),(99999,'Elimar Lolzin',56753,'elimarlolzero','99999','cliente',9999999,1),(12345,'Julio Faker',45678,'juliofaker','12345','cliente',1010101,1);
+INSERT INTO pessoa(cpf,nome,rgtipo,id_endereco,cli_tipo)
+VALUES	(11111,'Tadeu Junior',22334,,'cliente',1111111,1),
+		(22222,'Yan de Paula',88776,'dono',2222222,0),
+		(33333,'Ewerson Vieira',32345,'cliente',3333333,1),
+		(44444,'Lucas Gomes Irinel',26526,'cliente',4444444,1),
+		(55555,'Icaro Duarte',22334,'cliente',5555555,1),
+		(66666,'David Vilaca',44556,'cliente',6666666,1),
+		(77777,'Leandro Goias',77889,'cliente',7777777,1),
+		(88888,'Luiz Melodia',34523,'cliente',8888888,1),
+		(99999,'Elimar Lolzin',56753,'cliente',9999999,1),
+		(12345,'Julio Faker',45678,'cliente',1010101,1);
+
+INSERT INTO usuario(cpf,login,password)
+VALUES	(22222,'yandp','22222'),
+		(11111,'tadeujun1or','111111'),
+		(33333,'ewersonv','33333'),
+		(44444,'luca_irinel','44444'),
+		(55555,'icaroduarte','55555'),
+		(66666,'vilacadavid','66666'),
+		(77777,'leandro_goias','77777'),
+		(88888,'luizmelodia','88888'),
+		(99999,'elimarlolzero','99999'),
+		(12345,'juliofaker','12345');
 
 INSERT INTO contato_cliente(cpf,id_contato,contato)
 VALUES(11111,11,'telefone'),(22222,22,'celular'),(33333,33,'celular'),(44444,44,'celular'),(55555,55,'email'),(66666,66,'telefone'),(77777,77,'facebook'),(88888,88,'celular'),(99999,99,'celular'),(12345,153,'email');
