@@ -187,8 +187,7 @@ Contato: armazena o contato do cliente;<br><br>
    https://github.com/Tadeujr/trab01/blob/master/Padaria/INSERTS.txt
 
 #### 8.3 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS<br>
-   https://github.com/Tadeujr/trab01/blob/lucas/Padaria/tabelas/tabelas%20ipao.sql
-   https://github.com/Tadeujr/trab01/blob/master/Padaria/INSERTS.txt
+   https://github.com/Tadeujr/trab01/blob/master/Padaria/create_e_inserts.sql
     
     Entrega até este ponto em: (Data a ser definida)
 
