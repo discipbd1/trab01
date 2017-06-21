@@ -168,7 +168,7 @@ Contato: armazena o contato do cliente;<br><br>
 
 ### 6	MODELO LÓGICO <br>
    
-   <img src='https://github.com/Tadeujr/trab01/blob/master/Padaria/imagens%20do%20trabalho/foto_modelo_logico.jpg'/>
+   <img src='https://raw.githubusercontent.com/Tadeujr/trab01/master/Padaria/imagens%20do%20trabalho/modelo_logico_power.png'/>
    
 
 
