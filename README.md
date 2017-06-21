@@ -148,16 +148,19 @@ id_bairro: chave estrangeira que faz relação com a tabela bairro;
 Cep: chave estrangeira que faz relação com a tabela cep;
 Numero: armazena o numero do local;<br>
  
-<b>Cliente:</b> tabela armazena os dados do cliente;
+<b>Pessoa:</b> tabela armazena os dados do cliente;
 Cpf: chave primária da tabela cliente;
 Nome: armazena o nome do cliente;
 Rg: armazena o rg do cliente;
-Login: armazena o nome de login do cliente;
-Senha: armazena a senha do cliente;
 Tipo: armazena o tip de cliente;
 Id_endereco: chave estrangeira que faz relação com a tabela endereço;
 Cli_tipo: armazena o tipo de cliente;<br>
- 
+
+<b>Usuario:</b> tabela armazena os dados do cliente;
+Cpf: chave estrangeira da tabela cliente;
+Login: armazena o nome de login do cliente;
+Senha: armazena a senha do cliente;
+
 <b>Contato_cliente:</b> tabela armazena o contato do cliente;
 Cpf: chave estrangeira que faz relação com a tabela cliente;
 Id_contato: chave estrangeira que faz relação com a tabela tipo de contato;
