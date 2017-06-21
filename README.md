@@ -36,7 +36,7 @@ https://github.com/Tadeujr/trab01/blob/master/Padaria/Campos%20IPAO.ods
 
 ### 5.MODELO CONCEITUAL
 A) NOTACAO ENTIDADE RELACIONAMENTO:
-<br><img src="https://github.com/Tadeujr/trab01/blob/master/Padaria/imagens%20do%20trabalho/modelo_conceitual.jpg"/>
+<br><img src="https://raw.githubusercontent.com/Tadeujr/trab01/master/Padaria/imagens%20do%20trabalho/modelo_conceitual.jpg"/>
 
 
 #### 5.1 Validação do Modelo Conceitual
