@@ -126,25 +126,26 @@ CREATE TABLE contato_padaria(
 	references tipo_contato(id_contato)
 );
 
+
+CREATE TABLE tipo_pagamento(
+	id_pagamento INT primary key,
+	descricao VARCHAR(50)
+);
+
 CREATE TABLE pedido(
 	id_pedido INT primary key,
 	cpf INT,
 	id_padaria INT,
 	valor_total MONEY,
-	data_pedido DATETIME,
-	data_pagamento DATETIME,
+	data_pedido TIMESTAMP,
+	data_pagamento TIMESTAMP,
 	id_pagamento INT,
 	foreign key (cpf)
 	references pessoa(cpf),
 	foreign key (id_padaria)
 	references padaria(id_padaria),
 	foreign key (id_pagamento)
-	references padaria(tipo_pagameto)
-);
-
-CREATE TABLE tipo_pagameto(
-	id_pagamento INT primary key,
-	descricao VARCHAR(50)
+	references tipo_pagamento(id_pagamento)
 );
 
 CREATE TABLE entrega(
@@ -199,7 +200,7 @@ VALUES(29180054,'Rua Café Filho',312),(28746896,'Rua Diamante',345),(29000000,'
 INSERT INTO endereco(id_endereco,id_bairro,cep,numero)
 VALUES(1111111,312,29180054,55),(2222222,345,28746896,456),(3333333,387,29000000,89),(4444444,356,25689211,86),(5555555,245,87964294,47),(6666666,278,45464789,22),(7777777,255,98653597,36),(8888888,159,98569221,35),(9999999,671,89641321,327),(1010101,892,12365589,641);
 
-INSERT INTO pessoa(cpf,nome,rgtipo,id_endereco,cli_tipo)
+INSERT INTO pessoa(cpf,nome,rg,tipo,id_endereco,cli_tipo)
 VALUES	(11111,'Tadeu Junior',22334,'cliente',1111111,1),
 		(22222,'Yan de Paula',88776,'dono',2222222,0),
 		(33333,'Ewerson Vieira',32345,'cliente',3333333,1),
