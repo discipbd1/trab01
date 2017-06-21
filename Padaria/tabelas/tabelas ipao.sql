@@ -44,17 +44,23 @@ CREATE TABLE endereco(
 	references cep(cep)
 );
 
-CREATE TABLE cliente(
+CREATE TABLE pessoa(
 	cpf INT primary key,
 	nome VARCHAR(45),
 	rg INT,
-	login VARCHAR(45),
-	senha VARCHAR(45),
 	tipo VARCHAR(60),
 	id_endereco INT,
 	cli_tipo INT,
 	foreign key (id_endereco)
 	references endereco(id_endereco)
+);
+
+CREATE TABLE usuario(
+	cpf INT primary key,
+	login VARCHAR(45),
+	senha VARCHAR(45),
+	foreign key (cpf)
+	references pessoa(cpf)
 );
 
 CREATE TABLE contato_cliente(
