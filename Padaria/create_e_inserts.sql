@@ -60,7 +60,7 @@ CREATE TABLE usuario(
 	login VARCHAR(45),
 	senha VARCHAR(45),
 	foreign key (cpf)
-	references pessoa(cpf)
+	references cliente(cpf)
 );
 
 CREATE TABLE contato_cliente(
@@ -211,7 +211,7 @@ VALUES	(11111,'Tadeu Junior',22334,,'cliente',1111111,1),
 		(99999,'Elimar Lolzin',56753,'cliente',9999999,1),
 		(12345,'Julio Faker',45678,'cliente',1010101,1);
 
-INSERT INTO usuario(cpf,login,password)
+INSERT INTO usuario(cpf,login,senha)
 VALUES	(22222,'yandp','22222'),
 		(11111,'tadeujun1or','111111'),
 		(33333,'ewersonv','33333'),
