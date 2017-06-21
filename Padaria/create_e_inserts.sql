@@ -200,7 +200,7 @@ INSERT INTO endereco(id_endereco,id_bairro,cep,numero)
 VALUES(1111111,312,29180054,55),(2222222,345,28746896,456),(3333333,387,29000000,89),(4444444,356,25689211,86),(5555555,245,87964294,47),(6666666,278,45464789,22),(7777777,255,98653597,36),(8888888,159,98569221,35),(9999999,671,89641321,327),(1010101,892,12365589,641);
 
 INSERT INTO pessoa(cpf,nome,rgtipo,id_endereco,cli_tipo)
-VALUES	(11111,'Tadeu Junior',22334,,'cliente',1111111,1),
+VALUES	(11111,'Tadeu Junior',22334,'cliente',1111111,1),
 		(22222,'Yan de Paula',88776,'dono',2222222,0),
 		(33333,'Ewerson Vieira',32345,'cliente',3333333,1),
 		(44444,'Lucas Gomes Irinel',26526,'cliente',4444444,1),
@@ -224,7 +224,16 @@ VALUES	(22222,'yandp','22222'),
 		(12345,'juliofaker','12345');
 
 INSERT INTO contato_cliente(cpf,id_contato,contato)
-VALUES(11111,11,'telefone'),(22222,22,'celular'),(33333,33,'celular'),(44444,44,'celular'),(55555,55,'email'),(66666,66,'telefone'),(77777,77,'facebook'),(88888,88,'celular'),(99999,99,'celular'),(12345,153,'email');
+VALUES	(11111,11,'telefone'),
+		(22222,22,'celular'),
+		(33333,33,'celular'),
+		(44444,44,'celular'),
+		(55555,55,'email'),
+		(66666,66,'telefone'),
+		(77777,77,'facebook'),
+		(88888,88,'celular'),
+		(99999,99,'celular'),
+		(12345,153,'email');
 
 INSERT INTO cartao(cpf,numero_cartao,nome_cartao,sec_cod,primeiro_nome,segundo_nome,mes,ano)
 VALUES(11111,'11122233345','Tadeu Junior',234,'Tadeu','Junior','9','18'),(22222,'11133344456','Yan Paula',345,'Yan','Paula','5','19'),(33333,'11122255678','Ewerso Vieira',462,'Ewerso','Vieira','3','20'),(44444,'11145678902','Lucas G Irinel',345,'Lucas','Irineu','3','27'),(55555,'11234567890','Icaro Duarte',567,'Icaro','Duarte','12','20'),(66666,'23411123456','David Vilaca',456,'David','Vilaca','10','19'),(77777,'45322234567','Leandro Goias',432,'Leandro','Goias','12','20'),(88888,'66677788906','Luiz Melodia',456,'Luiz','Melodia','9','12'),(99999,'23451234567','Elimar Lolzin',765,'Elimar','Lolzin','5','23'),(12345,'23451789654','Julio Faker',567,'Julio','Faker','9','21');
