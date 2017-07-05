@@ -197,58 +197,58 @@ Contato: armazena o contato do cliente;<br><br>
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) 
-<h3>select*from bairro<h3>
+<h3>select * from bairro<h3>
  <img src='https://github.com/Tadeujr/trab01/blob/master/Padaria/imagens%20do%20trabalho/bairro.png'/>
  
-<h3>select*from cep<h3>
+<h3>select * from cep<h3>
  <img src='https://github.com/Tadeujr/trab01/blob/master/Padaria/imagens%20do%20trabalho/cep.png'/>
  
- <h3>select*from cidade<h3>
+ <h3>select * from cidade<h3>
  <img src='https://github.com/Tadeujr/trab01/blob/master/Padaria/imagens%20do%20trabalho/cidade.png'/>
  
- <h3>select*from pessoa<h3>
+ <h3>select * from pessoa<h3>
  <img src='https://github.com/Tadeujr/trab01/blob/master/Padaria/imagens%20do%20trabalho/cliente.png'/>
  
- <h3>select*from usuario<h3>
+ <h3>select * from usuario<h3>
 <img src='https://github.com/Tadeujr/trab01/blob/master/Padaria/imagens%20do%20trabalho/usuario.png'/>
  
- <h3>select*from contato_cliente<h3>
+ <h3>select * from contato_cliente<h3>
  <img src='https://github.com/Tadeujr/trab01/blob/master/Padaria/imagens%20do%20trabalho/contato_cliente.png'/>
  
- <h3>select*from contato_padaria<h3>
+ <h3>select * from contato_padaria<h3>
  <img src='https://github.com/Tadeujr/trab01/blob/master/Padaria/imagens%20do%20trabalho/contato_padaria.png'/>
  
- <h3>select*from endereco<h3>
+ <h3>select * from endereco<h3>
  <img src='https://github.com/Tadeujr/trab01/blob/master/Padaria/imagens%20do%20trabalho/endereco.png'/>
  
- <h3>select*from entrega<h3>
+ <h3>select * from entrega<h3>
  <img src='https://github.com/Tadeujr/trab01/blob/master/Padaria/imagens%20do%20trabalho/entrega.png'/>
  
- <h3>select*from estado<h3>
+ <h3>select * from estado<h3>
  <img src='https://github.com/Tadeujr/trab01/blob/master/Padaria/imagens%20do%20trabalho/estado.png'/>
  
- <h3>select*from padaria<h3>
+ <h3>select * from padaria<h3>
  <img src='https://github.com/Tadeujr/trab01/blob/master/Padaria/imagens%20do%20trabalho/padaria.png'/>
  
- <h3>select*from cartao<h3>
+ <h3>select * from cartao<h3>
  <img src='https://github.com/Tadeujr/trab01/blob/master/Padaria/imagens%20do%20trabalho/cartao.png'/>
  
- <h3>select*from padaria_rating<h3>
+ <h3>select * from padaria_rating<h3>
  <img src='https://github.com/Tadeujr/trab01/blob/master/Padaria/imagens%20do%20trabalho/padaria_rating.png'/>
  
- <h3>select*from pedido<h3>
+ <h3>select * from pedido<h3>
  <img src='https://github.com/Tadeujr/trab01/blob/master/Padaria/imagens%20do%20trabalho/pedido.png'/>
  
- <h3>select*from produto<h3>
+ <h3>select * from produto<h3>
  <img src='https://github.com/Tadeujr/trab01/blob/master/Padaria/imagens%20do%20trabalho/produto.png'/>
  
- <h3>select*from produto_pedido<h3>
+ <h3>select * from produto_pedido<h3>
  <img src='https://github.com/Tadeujr/trab01/blob/master/Padaria/imagens%20do%20trabalho/produto_pedido.png'/>
  
-  <h3>select*from tipo_contato<h3>
+  <h3>select * from tipo_contato<h3>
  <img src='https://github.com/Tadeujr/trab01/blob/master/Padaria/imagens%20do%20trabalho/tipo_contato.png'/>
  
-  <h3>select*from tipo_pagamento<h3>
+  <h3>select * from tipo_pagamento<h3>
  <img src='https://github.com/Tadeujr/trab01/blob/master/Padaria/imagens%20do%20trabalho/tipo_pagamento.png'/> 
  
 
