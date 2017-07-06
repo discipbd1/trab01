@@ -282,16 +282,67 @@ where valor_total > '30,00'<h3>
    <h3>SELECT nome,descricao FROM produto where nome like '%Bolo%';<h3>
  <img src='https://github.com/Tadeujr/trab01/blob/master/Padaria/imagens%20do%20trabalho/like_blo.png'/> 
  
-#### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)
+#### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6) <br>
+https://github.com/Tadeujr/trab01/blob/master/Padaria/update-delete.sql
+
 #### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Todas Junções)
-   Entrega até este ponto em: (Data a ser definida)
+   
 
 
 #### 9.7	CONSULTAS COM GROUP BY (Mínimo 5)
+
+<h3>select nome_bairro from bairro group by nome_bairro;<h3>
+ <img src='https://github.com/Tadeujr/trab01/blob/master/Padaria/imagens%20do%20trabalho/group_by_nome_bairro.png'/>
+ 
+ <h3>select primeiro_nome from cartao group by primeiro_nome;<h3>
+ <img src='https://github.com/Tadeujr/trab01/blob/master/Padaria/imagens%20do%20trabalho/group_by_primeiro_nome.png'/>
+ 
+ <h3>select nome from produto group by nome;<h3>
+ <img src='https://github.com/Tadeujr/trab01/blob/master/Padaria/imagens%20do%20trabalho/group_by_nome.png'/>
+ 
+  <h3>select descricao from tipo_pagamento group by descricao;<h3>
+ <img src='https://github.com/Tadeujr/trab01/blob/master/Padaria/imagens%20do%20trabalho/group_by_descricao.png'/>
+ 
+ <h3>select nome from estado group by nome;<h3>
+ <img src='https://github.com/Tadeujr/trab01/blob/master/Padaria/imagens%20do%20trabalho/group_by_estado.png'/>
+  
 #### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4)
+ <h3>SELECT id_cidade,
+ id_bairro,
+ estado.nome,
+ bairro.nome_bairro
+FROM estado RIGHT OUTER JOIN bairro
+ON (bairro.id_cidade = estado.id_estado);<h3>
+ <img src='https://github.com/Tadeujr/trab01/blob/master/Padaria/imagens%20do%20trabalho/rigth_cidade_bairro.png'/>
+ 
+  <h3>SELECT id_cidade,
+ id_bairro,
+ estado.nome,
+ bairro.nome_bairro
+FROM estado LEFT OUTER JOIN bairro
+ON (bairro.id_cidade = estado.id_estado);<h3>
+ <img src='https://github.com/Tadeujr/trab01/blob/master/Padaria/imagens%20do%20trabalho/left_cidade_bairro.png'/>
+ 
+ <h3>SELECT id_padaria,
+ id_pedido,
+ produto.nome,
+ produtos_pedido.qtd
+FROM produto RIGHT OUTER JOIN produtos_pedido
+ON (produtos_pedido.id_produto = produto.id_padaria);<h3>
+ <img src='https://github.com/Tadeujr/trab01/blob/master/Padaria/imagens%20do%20trabalho/rigth_id_padaria_id_pedido.png'/>
+ 
+ <h3>SELECT id_padaria,
+ id_pedido,
+ produto.nome,
+ produtos_pedido.qtd
+FROM produto LEFT OUTER JOIN produtos_pedido
+ON (produtos_pedido.id_produto = produto.id_padaria);<h3>
+ <img src='https://github.com/Tadeujr/trab01/blob/master/Padaria/imagens%20do%20trabalho/left_id_padaria_id_pedido.png'/>
+ 
 #### 9.9	CONSULTAS COM SELF JOIN E VIEW (Todas Possíveis)
+
 #### 9.10	SUBCONSULTAS (Mínimo 3)
-   Entrega até este ponto em: (Data a ser definida)
+
 
 
 ### 10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES PARA APRESENTAÇAO FINAL (Mínimo 6 e Máximo 10)
