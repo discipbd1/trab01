@@ -38,7 +38,8 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 >## Marco de Entrega 01 em: (Data definida no cronograma)<br>
 
 ### 5.MODELO CONCEITUAL<br>
-    A) NOTACAO ENTIDADE RELACIONAMENTO
+    A) NOTACAO ENTIDADE RELACIONAMENTO 
+        (Para nosso prótótipo limitaremos o modelo conceitual nas 6 principais entidades do escopo)
 ![Alt text](https://github.com/discipbd1/trab01/blob/master/sample_MC.png?raw=true "Modelo Conceitual")
     
     B) NOTACAO UML (Caso esteja fazendo a disciplina de analise)
@@ -46,6 +47,8 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
         Garantir que a semântica dos atributos seja clara no esquema
         Criar o esquema de forma a garantir a redução de informação redundante, possibilidade de valores null, 
         e tuplas falsas
+    
+        
     
 #### 5.1 Validação do Modelo Conceitual
     [Grupo01]: [Nomes dos que participaram na avaliação]
@@ -81,25 +84,22 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
         
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
-        Detalhamento sobre as informações e processo de obtenção ou geração dos dados.
-        Referenciar todas as fontes referentes a :
-        a) obtenção dos dados
-        b) obtenção de códigos reutilizados
-        c) fontes de estudo para desenvolvimento do projeto
+        a) inclusão das instruções de inserção dos dados nas tabelas criadas pelo script de modelo físic
+        b) formato .SQL
 
-
-#### 8.2 INCLUSÃO DO SCRIPT DE INSERÇÃO DOS DADOS
-        a) inclusão das instruções de inserção dos dados nas tabelas criadas pelo script de modelo físico
-        b) inclusão das instruções para execução de outros procedimentos necessários (caso existam)
-        c) formato .SQL
-
-#### 8.3 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
+#### 8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
         a) Junção dos scripts anteriores em um único script 
-        (tabelas e estruturas de dados + dados a serem inseridos)
+        (create para tabelas e estruturas de dados + dados a serem inseridos)
         b) Criar um novo banco de dados para testar a restauracao 
         (em caso de falha na restauração o grupo não pontuará neste quesito)
         c) formato .SQL
-        
+#### 8.3 INCLUSÃO DO SCRIPT PARA EXCLUSÃO DE TABELAS EXISTENTES, CRIAÇÃO DE TABELA NOVAS E INSERÇÃO DOS DADOS
+        a) Junção dos scripts anteriores em um único script 
+        (Drop table + Create de tabelas e estruturas de dados + dados a serem inseridos)
+        b) Criar um novo banco de dados para testar a restauracao 
+        (em caso de falha na restauração o grupo não pontuará neste quesito)
+        c) formato .SQL
+
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
     OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
@@ -116,7 +116,9 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
         b) Outras junções que o grupo considere como sendo as de principail importância para o trabalho
 #### 9.7	CONSULTAS COM GROUP BY E FUNÇES DE AGRUPAMENTO (Mínimo 5)<br>
 #### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4)<br>
-#### 9.9	CONSULTAS COM SELF JOIN E VIEW (Todas Possíveis)<br>
+#### 9.9	CONSULTAS COM SELF JOIN E VIEW (Mínimo 6)<br>
+        a) Uma junção que envolva Self Join
+        b) Outras junções views o grupo considere como sendo de relevante importância para o trabalho
 #### 9.10	SUBCONSULTAS (Mínimo 3)<br>
 ### 10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES PARA APRESENTAÇAO FINAL (Mínimo 6 e Máximo 10)<br>
 ### 11	TUTORIAL COMPLETO DE PASSOS PARA RESTAURACAO DO BANCO E EXECUCAO DE PROCEDIMENTOS ENVOLVIDOS NO TRABALHO PARA OBTENÇÃO DOS RESULTADOS<br>
