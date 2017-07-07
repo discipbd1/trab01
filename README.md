@@ -31,7 +31,10 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
     Esta tabela deve conter todos os atributos do sistema e um mínimo de 10 linhas.
     (esta tabela tem a intenção de simular um relatório com todos os dados que serão armazenados 
     e deve ser criada antes do modelo conceitual)
-
+#### 4.2 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
+    a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
+    b) Crie uma lista com os 10 principais relatórios que podero ser obtidos por meio do sistema proposto!
+    
 >## Marco de Entrega 01 em: (Data definida no cronograma)<br>
 
 ### 5.MODELO CONCEITUAL<br>
