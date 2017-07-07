@@ -380,10 +380,6 @@ ON (produtos_pedido.id_produto = produto.id_padaria);<h3>
 
 ### 13 FORMATACAO NO GIT: https://help.github.com/articles/basic-writing-and-formatting-syntax/
 ### 14 Backup completo do banco de dados postgres
-a) deve ser realizado no formato "backup" 
-    (Em Dump Options #1 Habilitar opções Don't Save Owner e Privilege)
-b) antes de postar o arquivo no git o mesmo deve ser testado/restaurado por outro grupo de alunos/dupla
-c) informar aqui o grupo de alunos/dupla que realizou o teste.
-
+ https://github.com/Tadeujr/trab01/blob/master/Padaria/backup/ipao.backup
 
 
