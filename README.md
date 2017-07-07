@@ -287,7 +287,24 @@ https://github.com/Tadeujr/trab01/blob/master/Padaria/update-delete.sql
 
 #### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Todas Junções)
    
-
+SELECT * FROM pessoa
+	inner join endereco on (endereco.id_endereco = pessoa.id_endereco)
+	inner join cep on (cep.cep = endereco.cep)
+	inner join bairro on (bairro.id_bairro = cep.id_bairro)
+	inner join cidade on (cidade.id_cidade = bairro.id_cidade)
+	inner join estado on (estado.id_estado = cidade.id_estado)
+	inner join usuario on (usuario.cpf = pessoa.cpf)
+	inner join contato_cliente on (contato_cliente.cpf = pessoa.cpf)
+	inner join tipo_contato on (tipo_contato.id_contato = contato_cliente.id_contato)
+	inner join contato_padaria on (contato_padaria.id_contato = tipo_contato.id_contato)
+	inner join padaria on (padaria.id_padaria = contato_padaria.id_padaria)
+	inner join pedido on (pedido.id_padaria = padaria.id_padaria)
+	inner join entrega on (entrega.id_pedido = pedido.id_pedido)
+	inner join produto on (produto.id_padaria = padaria.id_padaria)
+	inner join produtos_pedido on (produtos_pedido.id_produto = produto.id_produto)
+	inner join padaria_rating on (padaria_rating.cpf = pessoa.cpf)
+	inner join cartao on (cartao.cpf = pedido.cpf)
+	order by pessoa.nome
 
 #### 9.7	CONSULTAS COM GROUP BY (Mínimo 5)
 
