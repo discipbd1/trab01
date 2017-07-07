@@ -46,7 +46,7 @@ A) NOTACAO ENTIDADE RELACIONAMENTO:
 
 
 #### 5.2 DECISÕES DE PROJETO
-
+Não houve no trabalho.
 
 
 #### 5.3 DESCRIÇÃO DOS DADOS<br><br>
@@ -177,8 +177,7 @@ Contato: armazena o contato do cliente;<br><br>
     (criação de tabelas, alterações, etc..)
     
     
-    
-    Entrega até este ponto em: (Data a ser definida)
+   
 
 
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS
@@ -192,7 +191,6 @@ Contato: armazena o contato do cliente;<br><br>
 #### 8.3 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS<br>
    https://github.com/Tadeujr/trab01/blob/master/Padaria/create_e_inserts.sql
     
-    Entrega até este ponto em: (Data a ser definida)
 
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS
@@ -358,12 +356,16 @@ ON (produtos_pedido.id_produto = produto.id_padaria);<h3>
  <img src='https://github.com/Tadeujr/trab01/blob/master/Padaria/imagens%20do%20trabalho/left_id_padaria_id_pedido.png'/>
  
 #### 9.9	CONSULTAS COM SELF JOIN E VIEW (Todas Possíveis)
+https://github.com/Tadeujr/trab01/blob/master/Padaria/self_views.sql
 
 #### 9.10	SUBCONSULTAS (Mínimo 3)
 
 
 
 ### 10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES PARA APRESENTAÇAO FINAL (Mínimo 6 e Máximo 10)
+https://github.com/Tadeujr/trab01/blob/master/Padaria/Ipao.pdf
+<br>
+
 ### 11	TUTORIAL COMPLETO DE PASSOS PARA RESTAURACAO DO BANCO E EXECUCAO DE PROCEDIMENTOS ENVOLVIDOS NO TRABALHO PARA OBTENÇÃO DOS RESULTADOS
    a) Outros grupos deverão ser capazes de restaurar o banco 
     b) executar todas as consultas presentes no trabalho
@@ -372,7 +374,7 @@ ON (produtos_pedido.id_produto = produto.id_padaria);<h3>
 
 
 ### 12 DIFICULDADES ENCONTRADAS PELO GRUPO
- A dificuldade foi ficar alterando o banco de acordo com novas ideias que iam surgindo.
+ A dificuldade foi ficar alterando o banco de acordo com novas ideias que iriam surgindo.
 	
 ### 13 TRABALHO DE MINERAÇÃO DE DADOS
    a) captura das informaçõs
