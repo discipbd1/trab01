@@ -5,8 +5,8 @@ Trabalho desenvolvido durante a disciplina de BD
 
 ### 1. COMPONENTES<br>
 Integrantes do grupo<br>
-seu_nome:seu_email@dominio.com<br>
-segundo_nome:segundo_email@dominio.com<br>
+primeiro_componente_do_grupo:email_primeiro_componente@dominio.com<br>
+segundo_componente_do_grupo:email_segundo_componente@dominio.com<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
 Este documento contém a especificação do projeto do banco de dados <nome do projeto> 
@@ -31,6 +31,8 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
     Esta tabela deve conter todos os atributos do sistema e um mínimo de 10 linhas.
     (esta tabela tem a intenção de simular um relatório com todos os dados que serão armazenados 
     e deve ser criada antes do modelo conceitual)
+
+>## Marco de Entrega 01 em: (Data definida no cronograma)<br>
 
 ### 5.MODELO CONCEITUAL<br>
     A) NOTACAO ENTIDADE RELACIONAMENTO
@@ -67,6 +69,8 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
         b) verificação de correspondencia com o modelo conceitual 
         (não serão aceitos modelos que não estejam em conformidade)
 
+>## Marco de Entrega 02 em: (Data definida no cronograma)<br>
+
 ### 7	MODELO FÍSICO<br>
         a) inclusão das instruções de criacão das estruturas DDL 
         (criação de tabelas, alterações, etc..)
@@ -100,11 +104,14 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 3)<br>
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 2)<br>
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 3) <br>
-    Entrega até este ponto em: (14/06/2017)
+
+>## Marco de Entrega 03 em: (Data definida no cronograma)<br>
+    
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
-#### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Todas Junções)<br>
-        Entrega até este ponto em: (Data a ser definida)
-#### 9.7	CONSULTAS COM GROUP BY (Mínimo 5)<br>
+#### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Mínimo 6)<br>
+        a) Uma junção que envolva todas as tabelas possuindo no mínimo 3 registros no resultado
+        b) Outras junções que o grupo considere como sendo as de principail importância para o trabalho
+#### 9.7	CONSULTAS COM GROUP BY E FUNÇES DE AGRUPAMENTO (Mínimo 5)<br>
 #### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4)<br>
 #### 9.9	CONSULTAS COM SELF JOIN E VIEW (Todas Possíveis)<br>
 #### 9.10	SUBCONSULTAS (Mínimo 3)<br>
@@ -128,6 +135,8 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
         (Em Dump Options #1 Habilitar opções Don't Save Owner e Privilege)
     b) antes de postar o arquivo no git o mesmo deve ser testado/restaurado por outro grupo de alunos/dupla
     c) informar aqui o grupo de alunos/dupla que realizou o teste.
+    
+>## Marco de Entrega 04/Entrega Final em: (Data definida no cronograma)<br>
     
 ### OBSERVAÇÕES IMPORTANTES
 
