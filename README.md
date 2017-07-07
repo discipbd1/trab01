@@ -286,7 +286,7 @@ where valor_total > '30,00'<h3>
 https://github.com/Tadeujr/trab01/blob/master/Padaria/update-delete.sql
 
 #### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Todas Junções)
-   
+``` sql 
 SELECT * FROM pessoa
 	inner join endereco on (endereco.id_endereco = pessoa.id_endereco)
 	inner join cep on (cep.cep = endereco.cep)
@@ -305,6 +305,7 @@ SELECT * FROM pessoa
 	inner join padaria_rating on (padaria_rating.cpf = pessoa.cpf)
 	inner join cartao on (cartao.cpf = pedido.cpf)
 	order by pessoa.nome
+```
 
 #### 9.7	CONSULTAS COM GROUP BY (Mínimo 5)
 
