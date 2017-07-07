@@ -28,9 +28,12 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 ![Alt text](https://github.com/discipbd1/trab01/blob/master/balsamiq.png?raw=true "Title")
 
 #### 4.1 TABELA DE DADOS DO SISTEMA:
-    Esta tabela deve conter todos os atributos do sistema e um mínimo de 10 linhas.
-    (esta tabela tem a intenção de simular um relatório com todos os dados que serão armazenados 
-    e deve ser criada antes do modelo conceitual)
+    a) Esta tabela deve conter todos os atributos do sistema e um mínimo de 10 linhas.
+    b) Esta tabela tem a intenção de simular um relatório com todos os dados que serão armazenados 
+    e deve ser criada antes do modelo conceitual
+    c) Após criada esta tabela não deve ser modificada e ser comparada com o resultado de desenvolvimento do banco.
+    
+    
 #### 4.2 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
     a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
     b) Crie uma lista com os 10 principais relatórios que podero ser obtidos por meio do sistema proposto!
