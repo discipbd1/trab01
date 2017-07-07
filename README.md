@@ -1,5 +1,5 @@
 # TRABALHO 01:  Título do Trabalho
-Trabalho desenvolvido durante a disciplina de BD
+Trabalho desenvolvido durante a disciplina de BD1
 
 # Sumário
 
