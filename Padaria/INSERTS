@@ -1,4 +1,5 @@
-﻿INSERT INTO tipo_contato(id_contato,tipo)
+``` sql
+ INSERT INTO tipo_contato(id_contato,tipo)
 VALUES(11,'telefone'),(22,'celular'),(33,'celular'),(44,'celular'),(55,'email'),(66,'telefone'),(77,'facebook'),(88,'celular'),(99,'celular'),(153,'email');
 
 INSERT INTO estado(id_estado,nome,sigla)
@@ -51,3 +52,4 @@ VALUES(10,111,1),(12,222,1),(15,333,1),(16,444,1),(18,555,1),(21,666,1),(23,777,
 
 INSERT INTO padaria_rating(cpf,id_pedido,estrelas,recomenda,opiniao)
 VALUES(11111,10,5,1,'Muito bom!'),(22222,12,4,1,'Tudo perfeito.'),(33333,15,4,1,'Produto de qualidade.'),(44444,16,4,1,'Adorei. Tudo muito bom.'),(55555,18,5,1,'Ótima padaria!'),(66666,21,2,0,'Produto veio mofado.'),(77777,23,4,1,'Muito bom e chegou antes do previsto'),(88888,27,1,0,'Produto péssimo e demorou demais!'),(99999,34,0,0,'Produto veio estragado!'),(12345,48,4,1,'Excelente padaria!');
+```
