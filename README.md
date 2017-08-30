@@ -164,3 +164,8 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 
 Link para BrModelo:<br>
 http://sis4.com/brModelo/brModelo/download.html
+<br>
+
+Link para curso de GIT<br>
+https://www.youtube.com/watch?list=PLo7sFyCeiGUdIyEmHdfbuD2eR4XPDqnN2&time_continue=9&v=TC5r2qGiqcI
+
