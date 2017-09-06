@@ -38,7 +38,7 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
     a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
     b) Crie uma lista com os 10 principais relatórios que podero ser obtidos por meio do sistema proposto!
     
->## Marco de Entrega 01 em: (Data definida no cronograma)<br>
+>## Marco de Entrega 01 em: (06/09/2017)<br>
 
 ### 5.MODELO CONCEITUAL<br>
     A) NOTACAO ENTIDADE RELACIONAMENTO 
