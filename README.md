@@ -143,6 +143,22 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
         c) atualização da documentação do trabalho incluindo a mineração de dados
         
 ### 13  FORMATACAO NO GIT: https://help.github.com/articles/basic-writing-and-formatting-syntax/
+<comentario no git>
+    
+##### About Formatting
+    https://help.github.com/articles/about-writing-and-formatting-on-github/
+    
+##### Basic Formatting in Git
+    
+    https://help.github.com/articles/basic-writing-and-formatting-syntax/#referencing-issues-and-pull-requests
+    
+    
+##### Working with advanced formatting
+    https://help.github.com/articles/working-with-advanced-formatting/
+#### Mastering Markdown
+    https://guides.github.com/features/mastering-markdown/
+
+
 
 ### 14 Backup completo do banco de dados postgres 
     a) deve ser realizado no formato "backup" 
@@ -169,3 +185,5 @@ http://sis4.com/brModelo/brModelo/download.html
 
 Link para curso de GIT<br>
 ![https://www.youtube.com/curso_git](https://www.youtube.com/playlist?list=PLo7sFyCeiGUdIyEmHdfbuD2eR4XPDqnN2?raw=true "Title")
+
+
