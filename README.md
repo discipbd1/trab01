@@ -36,9 +36,9 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
     
 #### 4.2 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
     a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
-    b) Crie uma lista com os 10 principais relatórios que podero ser obtidos por meio do sistema proposto!
+    b) Crie uma lista com os 10 principais relatórios que poderão ser obtidos por meio do sistema proposto!
     
->## Marco de Entrega 01 em: (06/09/2017)<br>
+>## Marco de Entrega 01 em: (02/04/2018)<br>
 
 ### 5.MODELO CONCEITUAL<br>
     A) NOTACAO ENTIDADE RELACIONAMENTO 
@@ -68,6 +68,7 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
     pode possuir para cada departamento mais de uma localização... 
     b) justifique!
 
+>## Marco de Entrega 02 em: (23/04/2018)<br>
 #### 5.3 DESCRIÇÃO DOS DADOS 
     [objeto]: [descrição do objeto]
     
@@ -102,7 +103,7 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
         b) Criar um novo banco de dados para testar a restauracao 
         (em caso de falha na restauração o grupo não pontuará neste quesito)
         c) formato .SQL
-
+>## Marco de Entrega 03 em: (14/05/2018)<br>
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
     OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
@@ -116,7 +117,7 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
     a) Criar outras 5 consultas que envolvam like ou ilike
     b) Criar uma consulta para cada tipo de função data apresentada.
 
->## Marco de Entrega 02 em: (30/10/2017)<br>
+>## Marco de Entrega 04 em: (04/06/2017)<br>
     
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
 #### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Mínimo 6)<br>
@@ -129,19 +130,23 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
         b) Outras junções com views que o grupo considere como sendo de relevante importância para o trabalho
 #### 9.10	SUBCONSULTAS (Mínimo 3)<br>
 ### 10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES PARA APRESENTAÇAO FINAL (Mínimo 6 e Máximo 10)<br>
-### 11	TUTORIAL COMPLETO DE PASSOS PARA RESTAURACAO DO BANCO E EXECUCAO DE PROCEDIMENTOS ENVOLVIDOS NO TRABALHO PARA OBTENÇÃO DOS RESULTADOS<br>
+
+### 11 Backup completo do banco de dados postgres 
+    a) deve ser realizado no formato "backup" 
+        (Em Dump Options #1 Habilitar opções Don't Save Owner e Privilege)
+    b) antes de postar o arquivo no git o mesmo deve ser testado/restaurado por outro grupo de alunos/dupla
+    c) informar aqui o grupo de alunos/dupla que realizou o teste.
+
+### 12	TUTORIAL COMPLETO DE PASSOS PARA RESTAURACAO DO BANCO E EXECUCAO DE PROCEDIMENTOS ENVOLVIDOS NO TRABALHO PARA OBTENÇÃO DOS RESULTADOS<br>
         a) Outros grupos deverão ser capazes de restaurar o banco 
         b) executar todas as consultas presentes no trabalho
         c) executar códigos que tenham sido construídos para o trabalho 
         d) realizar qualquer procedimento executado pelo grupo que desenvolveu o trabalho
         
-### 12   DIFICULDADES ENCONTRADAS PELO GRUPO<br>
-### 13   TRABALHO DE MINERAÇÃO DE DADOS
-        a) captura das informaçõs
-        b) integração com banco de dados em desenvolvimento
-        c) atualização da documentação do trabalho incluindo a mineração de dados
+### 13   DIFICULDADES ENCONTRADAS PELO GRUPO<br>
+>## Marco de Entrega Final em: (25/06/2018)<br>
         
-### 13  FORMATACAO NO GIT: https://help.github.com/articles/basic-writing-and-formatting-syntax/
+### 14  FORMATACAO NO GIT: https://help.github.com/articles/basic-writing-and-formatting-syntax/
 <comentario no git>
     
 ##### About Formatting
@@ -159,13 +164,8 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 
 
 
-### 14 Backup completo do banco de dados postgres 
-    a) deve ser realizado no formato "backup" 
-        (Em Dump Options #1 Habilitar opções Don't Save Owner e Privilege)
-    b) antes de postar o arquivo no git o mesmo deve ser testado/restaurado por outro grupo de alunos/dupla
-    c) informar aqui o grupo de alunos/dupla que realizou o teste.
     
->## Marco de Entrega 04/Entrega Final em: (Data definida no cronograma)<br>
+
     
 ### OBSERVAÇÕES IMPORTANTES
 
