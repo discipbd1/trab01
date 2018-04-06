@@ -37,7 +37,7 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 ![Alt text](https://github.com/discipbd1/trab01/blob/master/balsamiq.png?raw=true "Title")
 
 #### 4.1 TABELA DE DADOS DO SISTEMA:
-    [RelatorioEstacIonA.xlsx](https://github.com/CasaInteligenteBD1/trab01/raw/3a77edd9fb45be0c516769015dbe6a74ddd23b9b/arquivos/RelatorioEstacIonA.xlsx "Title")
+[4_1_tabela_de_dados_estacIonA.xlsx](https://github.com/GrupoDaVaga/trab01/blob/master/arquivos/4_1_tabela_de_dados_estacIonA.xlsx)
     
     
 #### 4.2 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?<br>
