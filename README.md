@@ -40,7 +40,7 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
     <a href="https://docs.google.com/spreadsheets/d/10Zz67spsHT1n3akfI6hy84N-ZayDLIwrVfW4yJCQR4M/edit#gid=1101925278">Tabela</a>
     
     
-#### 4.2 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
+#### 4.2 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?<br>
    >## O sistema fornecerá relatórios sobre a vaga que foi reservada e as informações do cliente, da empresa responsável pela vaga, da reserva (preço, data) e do veículo do cliente.
     
     Os principais relatórios obtidos são: <br>
