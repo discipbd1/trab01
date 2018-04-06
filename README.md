@@ -37,11 +37,12 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 ![Alt text](https://github.com/discipbd1/trab01/blob/master/balsamiq.png?raw=true "Title")
 
 #### 4.1 TABELA DE DADOS DO SISTEMA:
-    <a href="https://drive.google.com/open?id=10Zz67spsHT1n3akfI6hy84N-ZayDLIwrVfW4yJCQR4M">Tabela de Relatório EstacIonA</a>
+    ![Alt text]<a href="https://drive.google.com/open?id=10Zz67spsHT1n3akfI6hy84N-ZayDLIwrVfW4yJCQR4M">Tabela de Relatório EstacIonA</a>
     
     
 #### 4.2 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
-    O sistema fornecerá relatórios sobre a vaga que foi reservada e as informações do cliente, da empresa responsável pela vaga, da reserva (preço, data) e do veículo do cliente.<br><br>
+    O sistema fornecerá relatórios sobre a vaga que foi reservada e as informações do cliente, da empresa responsável pela vaga, da reserva (preço, data) e do veículo do cliente.
+    
     Os principais relatórios obtidos são: <br>
     - Vagas disponíveis;<br>
     - Relatório sobre determinada vaga;<br>
