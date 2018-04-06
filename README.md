@@ -37,15 +37,23 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 ![Alt text](https://github.com/discipbd1/trab01/blob/master/balsamiq.png?raw=true "Title")
 
 #### 4.1 TABELA DE DADOS DO SISTEMA:
-    a) Esta tabela deve conter todos os atributos do sistema e um mínimo de 10 linhas.
-    b) Esta tabela tem a intenção de simular um relatório com todos os dados que serão armazenados 
-    e deve ser criada antes do modelo conceitual
-    c) Após criada esta tabela não deve ser modificada, pois será comparada com a tabela final na conclusão do trabalho
+    <a href="https://drive.google.com/open?id=10Zz67spsHT1n3akfI6hy84N-ZayDLIwrVfW4yJCQR4M">Tabela de Relatório EstacIonA</a>
     
     
 #### 4.2 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
-    a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
-    b) Crie uma lista com os 10 principais relatórios que poderão ser obtidos por meio do sistema proposto!
+    O sistema fornecerá relatórios sobre a vaga que foi reservada e as informações do cliente, da empresa responsável pela vaga, da reserva (preço, data) e do veículo do cliente.<br><br>
+    Os principais relatórios obtidos são: <br>
+    - Vagas disponíveis;<br>
+    - Relatório sobre determinada vaga;<br>
+    - Relatório sobre a reserva da vaga;<br>
+    - Relatório sobre determinado cliente;<br>
+    - Histórico de reservas de determinado cliente;<br>
+    - Créditos restantes de um determinado cliente;<br>
+    - Relatório da empresa responsável pela vaga;<br>
+    - Relatório do administrador da empresa responsável;<br>
+    - Relatório sobre o veículo de determinada reserva;<br>
+    - Histórico de veículos estacionados em determinada vaga.<br>
+    
     
 >## Marco de Entrega 01 em: (02/04/2018)<br>
 
