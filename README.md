@@ -4,13 +4,13 @@ Trabalho desenvolvido durante a disciplina de BD1
 # Sumário
 
 ### 1. COMPONENTES<br>
-<b>Clientes</b>
+<b>Clientes</b><br>
 David Moura: mouradavid8@gmail.com<br>
 Leonardo Arpini: leonardoarpini@gmail.com<br>
 Luciano Ananias: luciano.ananias.42@gmail.com <br>
 Thiago Alves: thiagofelicio@hotmail.com<br>
 <br>
-<b>Desenvolvedores</b>
+<b>Desenvolvedores</b><br>
 Andreângelo Patuzzo: andreangelo.pp@gmail.com<br>
 Anne Caroline Silva: carolinesilva4@gmail.com<br>
 Caicke Carvalho de Pinheiro: caicke@gmail.com<br>
