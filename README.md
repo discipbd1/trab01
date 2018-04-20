@@ -37,8 +37,8 @@ O Sistema proposto ao usuário apresenta as seguintes informações .Do cliente 
 O sistema proposto ao administrador apresenta as seguintes informações: Da empresa será armazenada o nome,e-mail, senha e CNPJ, Dos estacionamentos serão armazenados o Local e código da vaga, o administrador poderá adicionar o remover qualquer estacionamento e alterar o numero de vagas assim que desejar, podendo alterar também localidades e lugares pelo mapa.
 <br>
 
-![Mockup App](https://github.com/GrupoDaVaga/trab01/blob/master/App%20BD1.pdf)  
-![Mockup Web](https://github.com/GrupoDaVaga/trab01/blob/master/arquivos/ESTACIONA%20WEB.pdf)  
+[Mockup App](https://github.com/GrupoDaVaga/trab01/blob/master/App%20BD1.pdf)  
+[Mockup Web](https://github.com/GrupoDaVaga/trab01/blob/master/arquivos/ESTACIONA%20WEB.pdf)  
 
 
 #### 4.1 TABELA DE DADOS DO SISTEMA:
