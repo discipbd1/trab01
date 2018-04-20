@@ -11,8 +11,9 @@ Luciano Ananias: luciano.ananias.42@gmail.com <br>
 Thiago Alves: thiagofelicio@hotmail.com<br>
 <br>
 <b>Grupo de Análise</b><br>
-Casa Inteligente: foi feito um clone deste projeto em github.com/CasaInteligenteBD1/trab01gv <br>
 Integrantes: Andreângelo, Anne, Caicke e Emanuel<br>
+Foi feito um clone desse projeto pois os dois grupos estão desenvolvendo o mesmo projeto, que pode ser acessado no link
+![github.com/CasaInteligenteBD1/trab01gv](github.com/CasaInteligenteBD1/trab01gv).<br>
 
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
