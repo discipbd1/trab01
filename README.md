@@ -39,16 +39,16 @@ O sistema proposto ao administrador apresenta as seguintes informações: Da emp
     
 #### 4.2 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?<br>
    > O sistema fornecerá relatórios sobre a vaga que foi reservada e as informações do cliente, da empresa responsável pela vaga, da reserva (preço, data) e do veículo do cliente. Os principais relatórios obtidos são: <br><br>
-    - Vagas disponíveis;<br>
-    - Relatório sobre determinada vaga;<br>
-    - Relatório sobre a reserva da vaga;<br>
-    - Relatório sobre determinado cliente;<br>
-    - Histórico de reservas de determinado cliente;<br>
-    - Créditos restantes de um determinado cliente;<br>
-    - Relatório da empresa responsável pela vaga;<br>
-    - Relatório do administrador da empresa responsável;<br>
-    - Relatório sobre o veículo de determinada reserva;<br>
-    - Histórico de veículos estacionados em determinada vaga.
+   - Vagas disponíveis;<br>
+   - Relatório sobre determinada vaga;<br>
+   - Relatório sobre a reserva da vaga;<br>
+   - Relatório sobre determinado cliente;<br>
+   - Histórico de reservas de determinado cliente;<br>
+   - Créditos restantes de um determinado cliente;<br>
+   - Relatório da empresa responsável pela vaga;<br>
+   - Relatório do administrador da empresa responsável;<br>
+   - Relatório sobre o veículo de determinada reserva;<br>
+   - Histórico de veículos estacionados em determinada vaga.
     
     
 >## Marco de Entrega 01 em: (02/04/2018)<br>
