@@ -11,10 +11,8 @@ Luciano Ananias: luciano.ananias.42@gmail.com <br>
 Thiago Alves: thiagofelicio@hotmail.com<br>
 <br>
 <b>Grupo de Análise</b><br>
-Andreângelo Patuzzo: andreangelo.pp@gmail.com<br>
-Anne Caroline Silva: carolinesilva4@gmail.com<br>
-Caicke Carvalho de Pinheiro: caicke@gmail.com<br>
-Emanuel Rampinelli: emanuel_rampinelli@hotmail.com<br>
+Casa Inteligente: foi feito um clone deste projeto em github.com/CasaInteligenteBD1/trab01gv <br>
+Integrantes: Andreângelo, Anne, Caicke e Emanuel<br>
 
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
