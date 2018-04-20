@@ -16,8 +16,6 @@ Integrantes: Andreângelo, Anne, Caicke e Emanuel<br>
 
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
-Este documento contém a especificação do projeto do banco de dados estac<b>I</b>on<b>A</b>
-<br>e motivação da escolha realizada. <br>
 
 > A empresa "OriginsIA Soluções Tecnologicas" visa colaborar com desenvolvimento de projetos para uma sociedade melhor. Sabendo-se dos desafios para se encontrar vagas em em grandes cidades e grandes centros, ficamos motivados com o desenvolvimento deste sistema "estacIonA". O Sistema "estacIonA" tem como objetivo trazer facilidade e agilizade daqueles que precisam estacionar seus carros em locais cuja as vagas são escassas. Para realizar suas operações adequadamente e empresa necessita que sistema que armazene informações relativas aos estacionamentos, além de também armazenar dados sobre as vagas e as informações dos usuarios. 
 
@@ -25,12 +23,6 @@ Este documento contém a especificação do projeto do banco de dados estac<b>I<
  
 
 ### 3.MINI-MUNDO Novo<br>
-
-Descrever o mini-mundo! (Não deve ser maior do que 30 linhas) <br>
-Entrevista com o usuário e identificação dos requisitos.<br>
-Descrição textual das regras de negócio definidas como um  subconjunto do mundo real 
-cujos elementos são propriedades que desejamos incluir, processar, armazenar, 
-gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
 
 > 
 O Sistema proposto ao usuário apresenta as seguintes informações .Do cliente serão armazenados o nome,senha,e-mail,CPF,numero de telefone e placa do veiculo.Das formas de pagamentos serão armazenados numero de cartão de crédito, conta de PayPal e créditos depositados. O usuário com o aplicativo pode de qualquer lugar efetuar a reserva de um estacionamento caso ele já não tenha sido reservado por outro, caso não tenha sido reservado o mesmo poderá efetuar uma reserva com base nos seus dados já cadastrados, escolhendo assim seu método de pagamento mais apropriado e sendo informado do valor a ser pago por essa vaga.
