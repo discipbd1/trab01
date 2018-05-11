@@ -71,8 +71,8 @@ O sistema proposto ao administrador apresenta as seguintes informações: Da emp
         
     
 #### 5.1 Validação do Modelo Conceitual
-    [Grupo01]: Grupo do Blackcard
-    [Grupo02]: Grupo EstacIonA (Analise)
+    [Grupo do Blackcard]: Matheus Pinto, Pedro Cruz, Andre Phelipe, Herbert Wander, Jack Johnson.
+    [Grupo EstacIonA (Analise)]: Caicke Pinheiro, Andreangelo Patuzzo, Emanuel Gloria, Anne Caroline.
 
 #### 5.2 DECISÕES DE PROJETO
     [atributo]: [descrição da decisão]
