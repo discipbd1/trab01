@@ -71,8 +71,8 @@ O sistema proposto ao administrador apresenta as seguintes informações: Da emp
         
     
 #### 5.1 Validação do Modelo Conceitual
-    [Grupo01]: [Nomes dos que participaram na avaliação]
-    [Grupo02]: [Nomes dos que participaram na avaliação]
+    [Grupo01]: Grupo do Blackcard
+    [Grupo02]: Grupo EstacIonA (Analise)
 
 #### 5.2 DECISÕES DE PROJETO
     [atributo]: [descrição da decisão]
