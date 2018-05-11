@@ -76,6 +76,11 @@ O sistema proposto ao administrador apresenta as seguintes informações: Da emp
 
 #### 5.2 DECISÕES DE PROJETO
     [atributo]: [descrição da decisão]
+    Campo CNPJ: em nosso projeto optamos por uma pessoa Juridica cadastrar o CPNJ da empresa e pessoa fisica
+    cadastrar o CPF para uso pessoal.
+    Pois utilizando essa decisão podemos poupar de criar uma nova tabela para outro problema.
+    
+    
     
     EXEMPLO:
     a) Campo endereço: em nosso projeto optamos por um campo multivalorado e composto, pois a empresa 
