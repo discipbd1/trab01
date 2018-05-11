@@ -35,7 +35,7 @@ O sistema proposto ao administrador apresenta as seguintes informações: Da emp
 
 
 #### 4.1 TABELA DE DADOS DO SISTEMA:
-![Tabela_de_dados_estacIonA.xls](https://github.com/GrupoDaVaga/trab01/blob/master/arquivos/4_1_tabela_de_dados_estacIonA_2%20(1).xlsx)
+![Tabela_de_dados_estacIonA.xls](https://github.com/GrupoDaVaga/trab01/blob/907e818b28a4cde7f823d94d359c5092db3cf304/arquivos/C%C3%B3pia%20de%204_1_tabela_de_dados_estacIonA_2%20(1).xlsx)
     
     
 #### 4.2 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?<br>
