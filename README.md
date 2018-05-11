@@ -80,6 +80,12 @@ O sistema proposto ao administrador apresenta as seguintes informações: Da emp
     cadastrar o CPF para uso pessoal.
     Pois utilizando essa decisão podemos poupar de criar uma nova tabela para outro problema.
     
+    Campo preço_vaga: em nosso projeto decidimos o preço da vaga por hora estacionada, assim o aplicativo calcula quanto tempo
+    o cliente ficou com o preço de cada vaga.
+    Pois esse método é mais utilizado em estacionamentos privados.
+    
+    Campo Tipo Sensor: em nosso projeto optamos também por RETIRAR o atributo tipo sensor e criamos uma tabela tipo sensor
+    Pois com esse método resolveriamos o problema de adicionar novos tipos de sensores.
     
     
     EXEMPLO:
