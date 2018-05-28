@@ -115,7 +115,7 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
         b) Criar um novo banco de dados para testar a restauracao 
         (em caso de falha na restauração o grupo não pontuará neste quesito)
         c) formato .SQL
->## Marco de Entrega 03 em: (14/05/2018)<br>
+>## Marco de Entrega 03 em: (adiada)<br>
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
     OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
@@ -129,9 +129,10 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
     a) Criar outras 5 consultas que envolvam like ou ilike
     b) Criar uma consulta para cada tipo de função data apresentada.
 
->## Marco de Entrega 04 em: (04/06/2017)<br>
-    
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
+
+>## Marco de Entrega 04 em: (08/06/2017)<br>
+
 #### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Mínimo 6)<br>
         a) Uma junção que envolva todas as tabelas possuindo no mínimo 3 registros no resultado
         b) Outras junções que o grupo considere como sendo as de principal importância para o trabalho
