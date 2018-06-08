@@ -13,7 +13,7 @@ Thiago Alves: thiagofelicio@hotmail.com<br>
 <b>Grupo de Análise</b><br>
 Integrantes: Andreângelo, Anne, Caicke e Emanuel<br>
 Foi feito um clone desse projeto pois os dois grupos estão desenvolvendo o mesmo projeto, que pode ser acessado no link
-[github.com/CasaInteligenteBD1/trab01gv](https://github.com/CasaInteligenteBD1/trab01gv).<br>
+[Casa Inteligente](https://github.com/CasaInteligenteBD1/trab01gv).<br>
 
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
@@ -26,16 +26,16 @@ Foi feito um clone desse projeto pois os dois grupos estão desenvolvendo o mesm
 ### 3.MINI-MUNDO Novo<br>
 
 > 
-O Sistema proposto ao usuário apresenta as seguintes informações .Do cliente serão armazenados o nome,senha,e-mail,CPF,numero de telefone e placa do veiculo.Das formas de pagamentos serão armazenados numero de cartão de crédito, conta de PayPal e créditos depositados. O usuário com o aplicativo pode de qualquer lugar efetuar a reserva de um estacionamento caso ele já não tenha sido reservado por outro, caso não tenha sido reservado o mesmo poderá efetuar uma reserva com base nos seus dados já cadastrados, escolhendo assim seu método de pagamento mais apropriado e sendo informado do valor a ser pago por essa vaga.
-O sistema proposto ao administrador apresenta as seguintes informações: Da empresa será armazenada o nome,e-mail, senha e CNPJ, Dos estacionamentos serão armazenados o Local e código da vaga, o administrador poderá adicionar o remover qualquer estacionamento e alterar o numero de vagas assim que desejar, podendo alterar também localidades e lugares pelo mapa.
+O Sistema proposto ao usuário apresenta as seguintes informações .Do cliente serão armazenados o nome,senha,e-mail,CPF,numero de telefone e placa do veiculo.Das formas de pagamentos serão armazenados numero de cartão de crédito, data de vencimento, nome impresso no cartão, além dos créditos depositados. O usuário cadastrado no aplicativo pode de qualquer lugar efetuar a reserva de vaga em um estacionamento caso esta já não tenha sido reservado, escolhendo assim o método de pagamento mais apropriado e fetuando o pagamento do valor referente aquele estacionamento informado pelo próprio aplicativo.
+O sistema proposto ao administrador apresenta as seguintes informações: Da empresa será armazenada o nome,e-mail, senha e CNPJ, Dos estacionamentos serão armazenados o Local e código das vagas, o administrador poderá adicionar o remover qualquer estacionamento e alterar o numero de vagas a qualquer momento.
 <br>
 
-[Mockup App](https://github.com/GrupoDaVaga/trab01/blob/master/App%20BD1.pdf)  
-[Mockup Web](https://github.com/GrupoDaVaga/trab01/blob/master/arquivos/ESTACIONA%20WEB.pdf)  
+[Mockup App](https://github.com/GrupoDaVaga/trab01/blob/david/mockups/ESTACIONA%20APP.pdf)  
+[Mockup Web](https://github.com/GrupoDaVaga/trab01/blob/david/mockups/ESTACIONA%20WEB.pdf)  
 
 
 #### 4.1 TABELA DE DADOS DO SISTEMA:
-![Tabela_de_dados_estacIonA.xls](https://github.com/GrupoDaVaga/trab01/blob/907e818b28a4cde7f823d94d359c5092db3cf304/arquivos/C%C3%B3pia%20de%204_1_tabela_de_dados_estacIonA_2%20(1).xlsx)
+![Tabela_de_dados_estacIonA.xls](https://drive.google.com/open?id=1wyr_sFZ0AyqciscpmG4qH-GHCdzUoFPeD8juoA5IZ3M)
     
     
 #### 4.2 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?<br>
