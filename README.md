@@ -60,7 +60,7 @@ O sistema proposto ao administrador apresenta as seguintes informações: Da emp
         * O protótipo deve possui no mínimo duas relações N para N
         * o mínimo de entidades do modelo conceitual será igual a 5
         
-![Modelo Conceitual](https://github.com/GrupoDaVaga/trab01/blob/master/arquivos/modelo_normalizado_final.brM3)
+![Modelo Conceitual](https://github.com/GrupoDaVaga/trab01/blob/00a8131fcdcfe5842b88a0ae7e8f954b3026e54d/modelo_normalizado_final.brM3)
     
     B) NOTACAO UML (Caso esteja fazendo a disciplina de analise)
     C) QUALIDADE 
