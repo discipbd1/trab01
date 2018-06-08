@@ -21,6 +21,7 @@ INSERT INTO Administrador Values ('Silvio Santos','ss@sbt.br','reg85234')
 INSERT INTO Administrador Values ('Edmar Pires','edmar1@hy.com','reg15')
 INSERT INTO Administrador Values ('Nuno Aguir','nunoag@shoppeld.com','reg155848')
 
+INSERT INTO Condutor Values ('João Silva','089.342.170-07',)
 INSERT INTO Condutor Values ('João Silva','089.342.170-07','js@gmail.com','(99)99999-9999')
 INSERT INTO Condutor Values ('João Silva','089.342.170-07','js@gmail.com','(99)99999-9999')
 INSERT INTO Condutor Values ('João Silva','089.342.170-07','js@gmail.com','(99)99999-9999')
