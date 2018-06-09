@@ -87,7 +87,7 @@ O sistema proposto ao administrador apresenta as seguintes informações: Da emp
 
 
 ### 6	MODELO LÓGICO<br>
-[Modelo Lógico - BrModelo](https://github.com/GrupoDaVaga/trab01/blob/david/Modelo%20Normalizado/Logico.brM3)
+[Modelo Lógico - BrModelo](https://github.com/GrupoDaVaga/trab01/blob/david/Modelo%20Normalizado/Imagens/Logico.png)
 
 ![Modelo Lógico - PNG](https://github.com/GrupoDaVaga/trab01/blob/david/Modelo%20Normalizado/Logico.brM3)
 
