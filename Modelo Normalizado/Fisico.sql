@@ -74,7 +74,7 @@ CREATE TABLE Paga (
     FK_PESSOA_id_pessoa serial,
     FK_PESSOA_id_pessoa_ serial,
     Valor money,
-    Metodo varchar('Credito','Cartao_Credito')
+    Metodo varchar(150)
 );
  
 ALTER TABLE VEICULO ADD CONSTRAINT FK_VEICULO_1
