@@ -33,7 +33,6 @@ O sistema proposto ao administrador apresenta as seguintes informações: Da emp
 [Mockup App](https://github.com/GrupoDaVaga/trab01/blob/david/mockups/ESTACIONA%20APP.pdf)  
 [Mockup Web](https://github.com/GrupoDaVaga/trab01/blob/david/mockups/ESTACIONA%20WEB.pdf)  
 
-
 #### 4.1 TABELA DE DADOS DO SISTEMA:
 [Tabela_de_dados_estacIonA](https://drive.google.com/open?id=1wyr_sFZ0AyqciscpmG4qH-GHCdzUoFPeD8juoA5IZ3M)
     
@@ -51,7 +50,6 @@ O sistema proposto ao administrador apresenta as seguintes informações: Da emp
    - Relatório sobre o veículo de determinada reserva;<br>
    - Histórico de veículos estacionados em determinada vaga.
     
-    
 >## Marco de Entrega 01 em: (02/04/2018)<br>
 
 ### 5.MODELO CONCEITUAL<br>
@@ -59,6 +57,7 @@ O sistema proposto ao administrador apresenta as seguintes informações: Da emp
 ![Modelo conceitual - PNG](https://github.com/GrupoDaVaga/trab01/blob/david/Modelo%20Normalizado/Imagens/Conceitual.png)
 
 [Modelo Conceitual - Formato BrModelo](https://github.com/GrupoDaVaga/trab01/blob/david/Modelo%20Normalizado/Conceitual.brM3)    
+
     
 #### 5.1 Validação do Modelo Conceitual
     [Grupo do Blackcard]: Matheus Pinto, Pedro Cruz, Andre Phelipe, Herbert Wander, Jack Johnson.
@@ -77,7 +76,7 @@ O sistema proposto ao administrador apresenta as seguintes informações: Da emp
     Pois com esse método resolveriamos o problema de adicionar novos tipos de sensores.
     
 
->## Marco de Entrega 02 em: (23/04/2018)<br>
+>## Marco de Entrega 02 em: (11/05/2018)<br>
 #### 5.3 DESCRIÇÃO DOS DADOS 
     [objeto]: [descrição do objeto]
     
@@ -97,22 +96,22 @@ O sistema proposto ao administrador apresenta as seguintes informações: Da emp
         
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
-        a) inclusão das instruções de inserção dos dados nas tabelas criadas pelo script de modelo físic
+        a) inclusão das instruções de inserção dos dados nas tabelas criadas pelo script de modelo físico 
         b) formato .SQL
 
-#### 8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
+#### 8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELAS E INSERÇÃO DOS DADOS
         a) Junção dos scripts anteriores em um único script 
         (create para tabelas e estruturas de dados + dados a serem inseridos)
         b) Criar um novo banco de dados para testar a restauracao 
         (em caso de falha na restauração o grupo não pontuará neste quesito)
         c) formato .SQL
 #### 8.3 INCLUSÃO DO SCRIPT PARA EXCLUSÃO DE TABELAS EXISTENTES, CRIAÇÃO DE TABELA NOVAS E INSERÇÃO DOS DADOS
-        a) Junção dos scripts anteriores em um único script 
-        (Drop table + Create de tabelas e estruturas de dados + dados a serem inseridos)
+        a) Junção dos scripts anteriores em um único script
+        (Drop para exclusão de tabelas + create para tabelas e estruturas de dados + dados a serem inseridos)
         b) Criar um novo banco de dados para testar a restauracao 
         (em caso de falha na restauração o grupo não pontuará neste quesito)
         c) formato .SQL
->## Marco de Entrega 03 em: (14/05/2018)<br>
+>## Marco de Entrega 03 em: (adiada)<br>
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
     OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
@@ -126,9 +125,10 @@ O sistema proposto ao administrador apresenta as seguintes informações: Da emp
     a) Criar outras 5 consultas que envolvam like ou ilike
     b) Criar uma consulta para cada tipo de função data apresentada.
 
->## Marco de Entrega 04 em: (04/06/2017)<br>
-    
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
+
+>## Marco de Entrega 04 em: (08/06/2017)<br>
+
 #### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Mínimo 6)<br>
         a) Uma junção que envolva todas as tabelas possuindo no mínimo 3 registros no resultado
         b) Outras junções que o grupo considere como sendo as de principal importância para o trabalho
