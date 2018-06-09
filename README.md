@@ -35,7 +35,7 @@ O sistema proposto ao administrador apresenta as seguintes informações: Da emp
 
 
 #### 4.1 TABELA DE DADOS DO SISTEMA:
-![Tabela_de_dados_estacIonA.xls](https://drive.google.com/open?id=1wyr_sFZ0AyqciscpmG4qH-GHCdzUoFPeD8juoA5IZ3M)
+[Tabela_de_dados_estacIonA](https://drive.google.com/open?id=1wyr_sFZ0AyqciscpmG4qH-GHCdzUoFPeD8juoA5IZ3M)
     
     
 #### 4.2 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?<br>
