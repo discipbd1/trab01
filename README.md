@@ -89,10 +89,10 @@ O sistema proposto ao administrador apresenta as seguintes informações: Da emp
 ### 6	MODELO LÓGICO<br>
 [Modelo Lógico - BrModelo](https://github.com/GrupoDaVaga/trab01/blob/david/Modelo%20Normalizado/Logico.brM3)
 
-![Modelo Lógico - PNG](https://github.com/GrupoDaVaga/trab01/blob/david/Modelo%20Normalizado/Imagens/Logico.png)
+![Modelo Lógico - PNG](https://github.com/GrupoDaVaga/trab01/blob/david/Modelo%20Normalizado/Logico.brM3)
 
 ### 7	MODELO FÍSICO<br>
-[Modelo Lógico - BrModelo](https://github.com/GrupoDaVaga/trab01/blob/david/Modelo%20Normalizado/Fisico.sql)
+[Modelo Físico - SQL](https://github.com/GrupoDaVaga/trab01/blob/david/Modelo%20Normalizado/Fisico.sql)
 
         
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
