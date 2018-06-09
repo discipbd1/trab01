@@ -59,15 +59,17 @@ O sistema proposto ao administrador apresenta as seguintes informações: Da emp
         * Para nosso prótótipo limitaremos o modelo conceitual nas 6 principais entidades do escopo
         * O protótipo deve possui no mínimo duas relações N para N
         * o mínimo de entidades do modelo conceitual será igual a 5
-        
-![Modelo Conceitual](https://github.com/GrupoDaVaga/trab01/blob/00a8131fcdcfe5842b88a0ae7e8f954b3026e54d/modelo_normalizado_final.brM3)
-    
+
     B) NOTACAO UML (Caso esteja fazendo a disciplina de analise)
+
     C) QUALIDADE 
         Garantir que a semântica dos atributos seja clara no esquema
         Criar o esquema de forma a garantir a redução de informação redundante, possibilidade de valores null, 
         e tuplas falsas
     
+[Modelo Conceitual - Formato BrModelo](https://github.com/GrupoDaVaga/trab01/blob/david/Modelo%20Normalizado/Conceitual.brM3)
+    
+![Modelo conceitual - PNG](https://github.com/GrupoDaVaga/trab01/blob/david/Modelo%20Normalizado/Imagens/Conceitual.png)
         
     
 #### 5.1 Validação do Modelo Conceitual
@@ -75,7 +77,6 @@ O sistema proposto ao administrador apresenta as seguintes informações: Da emp
     [Grupo EstacIonA (Analise)]: Caicke Pinheiro, Andreangelo Patuzzo, Emanuel Gloria, Anne Caroline.
 
 #### 5.2 DECISÕES DE PROJETO
-    [atributo]: [descrição da decisão]
     Campo CNPJ: em nosso projeto optamos por uma pessoa Juridica cadastrar o CPNJ da empresa e pessoa fisica
     cadastrar o CPF para uso pessoal.
     Pois utilizando essa decisão podemos poupar de criar uma nova tabela para outro problema.
@@ -87,11 +88,6 @@ O sistema proposto ao administrador apresenta as seguintes informações: Da emp
     Campo Tipo Sensor: em nosso projeto optamos também por RETIRAR o atributo tipo sensor e criamos uma tabela tipo sensor
     Pois com esse método resolveriamos o problema de adicionar novos tipos de sensores.
     
-    
-    EXEMPLO:
-    a) Campo endereço: em nosso projeto optamos por um campo multivalorado e composto, pois a empresa 
-    pode possuir para cada departamento mais de uma localização... 
-    b) justifique!
 
 >## Marco de Entrega 02 em: (23/04/2018)<br>
 #### 5.3 DESCRIÇÃO DOS DADOS 
@@ -103,13 +99,13 @@ O sistema proposto ao administrador apresenta as seguintes informações: Da emp
 
 
 ### 6	MODELO LÓGICO<br>
-        a) inclusão do modelo lógico do banco de dados
-        b) verificação de correspondencia com o modelo conceitual 
-        (não serão aceitos modelos que não estejam em conformidade)
+        [Modelo Lógico - BrModelo](https://github.com/GrupoDaVaga/trab01/blob/david/Modelo%20Normalizado/Logico.brM3)
+
+        ![Modelo Lógico - PNG](https://github.com/GrupoDaVaga/trab01/blob/david/Modelo%20Normalizado/Imagens/Logico.png)
 
 ### 7	MODELO FÍSICO<br>
-        a) inclusão das instruções de criacão das estruturas DDL 
-        (criação de tabelas, alterações, etc..)          
+        [Modelo Lógico - BrModelo](https://github.com/GrupoDaVaga/trab01/blob/david/Modelo%20Normalizado/Fisico.sql)
+
         
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
