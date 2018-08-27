@@ -193,7 +193,7 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 
 
 Link para BrModelo:<br>
-http://sis4.com/brModelo/brModelo/download.html
+http://www.sis4.com/brModelo/download.html
 <br>
 
 
