@@ -117,6 +117,10 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
         b) Criar um novo banco de dados para testar a restauracao 
         (em caso de falha na restauração o grupo não pontuará neste quesito)
         c) formato .SQL
+#### 8.4 Principais fluxos de informação e principais tabelas do sistema
+        a) Quais os principais fluxos de dados de informação no sistema em densenvolvimento (mínimo 3)
+        b) Quais as tabelas que conterão mais dados no sistema em densenvolvimento (mínimo 3)
+        c) informe quais as 5 principais tabelas do sistema em densenvolvimento.
 >## Marco de Entrega 03 em: (27/09/18) <br>
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
@@ -185,7 +189,7 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 ### OBSERVAÇÕES IMPORTANTES
 
 #### Todos os arquivos que fazem parte do projeto (Imagens, pdfs, arquivos fonte, etc..), devem estar presentes no GIT. Os arquivos do projeto vigente não devem ser armazenados em quaisquer outras plataformas.
-1. Caso existam arquivos com conteúdos sigilosos, comunicar o professor que definirá em conjunto com o grupo a melhor forma de armazenamento do arquivo.
+1. <strong>Caso existam arquivos com conteúdos sigilosos<strong>, comunicar o professor que definirá em conjunto com o grupo a melhor forma de armazenamento do arquivo.
 
 #### Todos os grupos deverão fazer Fork deste repositório e dar permissões administrativas ao usuário do git "profmoisesomena", para acompanhamento do trabalho.
 
