@@ -15,7 +15,7 @@ Este documento contém a especificação do projeto do banco de dados <nome do p
 > A empresa "Devcom Projetos" visa colaborar com desenvolvimento de projetos para uma sociedade melhor. Sabendo-se dos desafios para gerenciar projetos dentro de uma empresa e visando unir as informações relativas a funcionários, departamentos e projetos em um mesmo local, ficamos motivados com o desenvolvimento deste sistema. O Sistema "Devcom" tem como objetivo gerenciar todas as informações ao desenvolvimento das atividades de projetos em diversas localidades do país. Para realizar suas operações adequadamente e empresa necessita que sistema que armazene informações relativas aos Projetos, Departamentos e Empregados, além de também armazenar dados sobre  Dependentes e Históricos de Salário dos empregados. O sistema deverá gerar um conjunto de relatórios que por sua vez atenderá os anseios da empresa em questão.
  
 
-### 3.MINI-MUNDO Novo<br>
+### 3.MINI-MUNDO<br>
 
 Descrever o mini-mundo! (Não deve ser maior do que 30 linhas) <br>
 Entrevista com o usuário e identificação dos requisitos.<br>
@@ -176,6 +176,16 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 >## Marco de Entrega 11 em: (04/06/2019)<br>
 
 ### 10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES PARA APRESENTAÇAO FINAL (Mínimo 6 e Máximo 10)<br>
+#### a) Pontos Chave do MINI-MUNDO
+#### b) 5 principais tabelas/fluxos do sistema
+#### c) Perguntas que podem ser respondidads com o sistema proposto
+#### d) Modelo Conceitual
+#### e) Modelo Lógico
+#### f) Relatórios e Gráficos mais importantes para o sistema (mínimo 5) 
+#### --> Tempo de apresentação 10 minutos
+
+
+
 
 ### 11 Backup completo do banco de dados postgres 
     a) deve ser realizado no formato "backup" 
@@ -190,7 +200,7 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
         d) realizar qualquer procedimento executado pelo grupo que desenvolveu o trabalho
         
 ### 13   DIFICULDADES ENCONTRADAS PELO GRUPO<br>
->## Marco de Entrega Final em: será definida <br>
+>## Marco de Entrega Final em: 11/06/2019 <br>
         
 ### 14  FORMATACAO NO GIT: https://help.github.com/articles/basic-writing-and-formatting-syntax/
 <comentario no git>
